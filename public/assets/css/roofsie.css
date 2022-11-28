@@ -784,8 +784,8 @@ ul {
 
 .main-menu .main-menu__list > li,
 .stricky-header .main-menu__list > li {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   position: relative;
 }
 
@@ -11249,4 +11249,12 @@ body.boxed-wrapper {
 
 .nav-logo img {
   width: 210px;
+}
+
+.main-header__logo {
+  top: 54px;
+}
+
+.main-header__logo img {
+  width: 220px;
 }

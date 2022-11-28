@@ -1105,7 +1105,7 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 50px;
+    padding-left: 330px;
   }
 
   .main-header__top {
@@ -1158,7 +1158,7 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 235px;
+    padding-left: 275px;
     padding-right: 30px;
   }
 
@@ -1218,10 +1218,11 @@
 
   .main-header__logo {
     left: 30px;
+    top: 16px;
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 235px;
+    padding-left: 275px;
     padding-right: 30px;
   }
 
@@ -1285,6 +1286,7 @@
 
   .main-header__logo {
     left: 30px;
+    top: 16px;
   }
 
   .main-menu__wrapper-inner {
