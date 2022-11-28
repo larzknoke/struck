@@ -23,7 +23,7 @@
   --roofsie-gray-rgb: 108, 107, 111;
   --roofsie-white: #ffffff;
   --roofsie-white-rgb: 255, 255, 255;
-  --roofsie-base: #dc3545;
+  --roofsie-base: #d81c2e;
   --roofsie-base-rgb: 255, 79, 71;
   --roofsie-black: #1c1b1f;
   --roofsie-black-rgb: 28, 27, 31;
@@ -261,8 +261,8 @@ ul {
   top: -2px;
   margin-right: 4px;
   padding-left: 2px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .thm-btn:before {
@@ -464,8 +464,8 @@ ul {
   display: block;
   width: 100%;
   background: transparent;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 99;
   position: relative;
 }
@@ -539,8 +539,8 @@ ul {
 
 .main-header__top-address-list li .text p a {
   color: #86838c;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header__top-address-list li .text p a:hover {
@@ -595,8 +595,8 @@ ul {
   font-weight: 400;
   display: flex;
   align-items: center;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header__top-menu li a:hover {
@@ -619,8 +619,8 @@ ul {
   align-items: center;
   font-size: 15px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header__top-social a:hover {
@@ -683,8 +683,8 @@ ul {
   color: var(--roofsie-base);
   background-color: var(--roofsie-primary);
   font-size: 20px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-menu__call-icon:hover {
@@ -703,8 +703,8 @@ ul {
   font-weight: 700;
   color: var(--roofsie-black);
   display: inline-block;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-menu__call-content a:hover {
@@ -736,8 +736,8 @@ ul {
 .main-menu__search {
   font-size: 24px;
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-menu__search:hover {
@@ -805,8 +805,8 @@ ul {
   align-items: center;
   color: var(--roofsie-black);
   position: relative;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   font-weight: 600;
 }
 
@@ -841,13 +841,13 @@ ul {
   transform-origin: top center;
   -webkit-transform: scaleY(0) translateZ(100px);
   transform: scaleY(0) translateZ(100px);
-  -webkit-transition: opacity 500ms ease, visibility 500ms ease,
-    -webkit-transform 700ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease,
-    -webkit-transform 700ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease,
-    -webkit-transform 700ms ease;
+  -webkit-transition: opacity 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease, transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease, transform 400ms ease,
+    -webkit-transform 400ms ease;
   z-index: 99;
   overflow: hidden;
   background-color: rgb(255, 255, 255);
@@ -909,8 +909,8 @@ ul {
   display: -ms-flexbox;
   display: flex;
   padding: 4px 20px 3px;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
   background-color: var(--roofsie-white);
   border-radius: var(--roofsie-bdr-radius);
 }
@@ -936,8 +936,8 @@ ul {
   font-size: 14px;
   color: var(--roofsie-base);
   transform: translateY(-50%) scale(0);
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 
 .main-menu .main-menu__list > li > ul > li:hover > a::before,
@@ -993,11 +993,11 @@ ul {
   visibility: hidden;
   -webkit-transform: translateY(-120%);
   transform: translateY(-120%);
-  -webkit-transition: visibility 500ms ease, -webkit-transform 500ms ease;
-  transition: visibility 500ms ease, -webkit-transform 500ms ease;
-  transition: transform 500ms ease, visibility 500ms ease;
-  transition: transform 500ms ease, visibility 500ms ease,
-    -webkit-transform 500ms ease;
+  -webkit-transition: visibility 400ms ease, -webkit-transform 400ms ease;
+  transition: visibility 400ms ease, -webkit-transform 400ms ease;
+  transition: transform 400ms ease, visibility 400ms ease;
+  transition: transform 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
   -webkit-box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
 }
@@ -1055,8 +1055,8 @@ ul {
   font-size: 20px;
   color: var(--roofsie-base);
   cursor: pointer;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 
 .main-menu .mobile-nav__toggler:hover {
@@ -1083,12 +1083,12 @@ ul {
   transform: translateX(-100%);
   -webkit-transform-origin: left center;
   transform-origin: left center;
-  -webkit-transition: visibility 500ms ease 500ms,
-    -webkit-transform 500ms ease 500ms;
-  transition: visibility 500ms ease 500ms, -webkit-transform 500ms ease 500ms;
-  transition: transform 500ms ease 500ms, visibility 500ms ease 500ms;
-  transition: transform 500ms ease 500ms, visibility 500ms ease 500ms,
-    -webkit-transform 500ms ease 500ms;
+  -webkit-transition: visibility 400ms ease 400ms,
+    -webkit-transform 400ms ease 400ms;
+  transition: visibility 400ms ease 400ms, -webkit-transform 400ms ease 400ms;
+  transition: transform 400ms ease 400ms, visibility 400ms ease 400ms;
+  transition: transform 400ms ease 400ms, visibility 400ms ease 400ms,
+    -webkit-transform 400ms ease 400ms;
   visibility: hidden;
 }
 
@@ -1102,12 +1102,12 @@ ul {
   -webkit-transform: translateX(0%);
   transform: translateX(0%);
   visibility: visible;
-  -webkit-transition: visibility 500ms ease 0ms,
-    -webkit-transform 500ms ease 0ms;
-  transition: visibility 500ms ease 0ms, -webkit-transform 500ms ease 0ms;
-  transition: transform 500ms ease 0ms, visibility 500ms ease 0ms;
-  transition: transform 500ms ease 0ms, visibility 500ms ease 0ms,
-    -webkit-transform 500ms ease 0ms;
+  -webkit-transition: visibility 400ms ease 0ms,
+    -webkit-transform 400ms ease 0ms;
+  transition: visibility 400ms ease 0ms, -webkit-transform 400ms ease 0ms;
+  transition: transform 400ms ease 0ms, visibility 400ms ease 0ms;
+  transition: transform 400ms ease 0ms, visibility 400ms ease 0ms,
+    -webkit-transform 400ms ease 0ms;
 }
 
 .mobile-nav__overlay {
@@ -1136,14 +1136,14 @@ ul {
   visibility: hidden;
   -webkit-transform: translateX(-100%);
   transform: translateX(-100%);
-  -webkit-transition: opacity 500ms ease 0ms, visibility 500ms ease 0ms,
-    -webkit-transform 500ms ease 0ms;
-  transition: opacity 500ms ease 0ms, visibility 500ms ease 0ms,
-    -webkit-transform 500ms ease 0ms;
-  transition: opacity 500ms ease 0ms, visibility 500ms ease 0ms,
-    transform 500ms ease 0ms;
-  transition: opacity 500ms ease 0ms, visibility 500ms ease 0ms,
-    transform 500ms ease 0ms, -webkit-transform 500ms ease 0ms;
+  -webkit-transition: opacity 400ms ease 0ms, visibility 400ms ease 0ms,
+    -webkit-transform 400ms ease 0ms;
+  transition: opacity 400ms ease 0ms, visibility 400ms ease 0ms,
+    -webkit-transform 400ms ease 0ms;
+  transition: opacity 400ms ease 0ms, visibility 400ms ease 0ms,
+    transform 400ms ease 0ms;
+  transition: opacity 400ms ease 0ms, visibility 400ms ease 0ms,
+    transform 400ms ease 0ms, -webkit-transform 400ms ease 0ms;
 }
 
 .mobile-nav__wrapper.expanded .mobile-nav__content {
@@ -1151,14 +1151,14 @@ ul {
   visibility: visible;
   -webkit-transform: translateX(0);
   transform: translateX(0);
-  -webkit-transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms,
-    -webkit-transform 500ms ease 500ms;
-  transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms,
-    -webkit-transform 500ms ease 500ms;
-  transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms,
-    transform 500ms ease 500ms;
-  transition: opacity 500ms ease 500ms, visibility 500ms ease 500ms,
-    transform 500ms ease 500ms, -webkit-transform 500ms ease 500ms;
+  -webkit-transition: opacity 400ms ease 400ms, visibility 400ms ease 400ms,
+    -webkit-transform 400ms ease 400ms;
+  transition: opacity 400ms ease 400ms, visibility 400ms ease 400ms,
+    -webkit-transform 400ms ease 400ms;
+  transition: opacity 400ms ease 400ms, visibility 400ms ease 400ms,
+    transform 400ms ease 400ms;
+  transition: opacity 400ms ease 400ms, visibility 400ms ease 400ms,
+    transform 400ms ease 400ms, -webkit-transform 400ms ease 400ms;
 }
 
 .mobile-nav__content .logo-box {
@@ -1226,8 +1226,8 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 
 .mobile-nav__content
@@ -1272,10 +1272,10 @@ ul {
   text-align: center;
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
-  -webkit-transition: -webkit-transform 500ms ease;
-  transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease;
-  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
   padding: 0;
 }
 
@@ -1348,8 +1348,8 @@ ul {
 .mobile-nav__social a {
   font-size: 16px;
   color: var(--roofsie-white);
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 
 .mobile-nav__social a + a {
@@ -1385,8 +1385,8 @@ ul {
 
 .mobile-nav__contact li a {
   color: #ffffff;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
 }
 
 .mobile-nav__contact li a:hover {
@@ -1452,8 +1452,8 @@ ul {
 .home-showcase__image > img {
   width: 100%;
   border-radius: 10px;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease;
+  -webkit-transition: 400ms ease;
+  transition: 400ms ease;
   -webkit-transform: scale(1);
   transform: scale(1);
 }
@@ -1494,8 +1494,8 @@ ul {
   visibility: hidden;
   -webkit-transform-origin: bottom center;
   transform-origin: bottom center;
-  -webkit-transition: 500ms ease;
-  transition: 500ms ease;
+  -webkit-transition: 400ms ease;
+  transition: 400ms ease;
 }
 
 .home-showcase__buttons__item {
@@ -1543,8 +1543,8 @@ ul {
 .main-header-two {
   width: 100%;
   background: transparent;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 99;
   position: relative;
 }
@@ -1608,8 +1608,8 @@ ul {
   height: 40px;
   width: 40px;
   background-color: transparent;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header-two__top-social a:hover {
@@ -1783,8 +1783,8 @@ ul {
 
 .main-header-two__address-list li .content h5 a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header-two__address-list li .content h5 a:hover {
@@ -1856,8 +1856,8 @@ ul {
 .main-menu-two__search {
   font-size: 24px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-menu-two__search:hover {
@@ -2005,8 +2005,8 @@ ul {
   font-weight: 400;
   display: flex;
   align-items: center;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header-three__top-menu li a:hover {
@@ -2071,8 +2071,8 @@ ul {
 .main-menu-three__search {
   font-size: 24px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-menu-three__search:hover {
@@ -2220,8 +2220,8 @@ ul {
 
 .main-header-three__address-list li .content h5 a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-header-three__address-list li .content h5 a:hover {
@@ -2250,8 +2250,8 @@ ul {
   border-radius: 50%;
   font-size: 15px;
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .main-menu-three__social a:hover {
@@ -2308,11 +2308,11 @@ ul {
   align-items: center;
   -webkit-transform: translateY(-110%);
   transform: translateY(-110%);
-  -webkit-transition: opacity 500ms ease, -webkit-transform 500ms ease;
-  transition: opacity 500ms ease, -webkit-transform 500ms ease;
-  transition: transform 500ms ease, opacity 500ms ease;
-  transition: transform 500ms ease, opacity 500ms ease,
-    -webkit-transform 500ms ease;
+  -webkit-transition: opacity 400ms ease, -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, -webkit-transform 400ms ease;
+  transition: transform 400ms ease, opacity 400ms ease;
+  transition: transform 400ms ease, opacity 400ms ease,
+    -webkit-transform 400ms ease;
 }
 
 .search-popup.active {
@@ -2399,8 +2399,8 @@ ul {
   top: 0;
   margin-right: 0;
   padding-left: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .search-popup__content .thm-btn:hover i {
@@ -2439,10 +2439,10 @@ ul {
   background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: transform 7000ms ease, opacity 1500ms ease-in;
-  transition: transform 7000ms ease, opacity 1500ms ease-in,
+  -webkit-transition: opacity 1400ms ease-in, -webkit-transform 7000ms ease;
+  transition: opacity 1400ms ease-in, -webkit-transform 7000ms ease;
+  transition: transform 7000ms ease, opacity 1400ms ease-in;
+  transition: transform 7000ms ease, opacity 1400ms ease-in,
     -webkit-transform 7000ms ease;
   z-index: 1;
 }
@@ -2632,7 +2632,7 @@ ul {
   border-radius: 50%;
   margin: 0;
   text-align: center;
-  transition: all 500ms ease;
+  transition: all 400ms ease;
   padding: 23px 0;
 }
 
@@ -2681,10 +2681,10 @@ ul {
   background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: transform 7000ms ease, opacity 1500ms ease-in;
-  transition: transform 7000ms ease, opacity 1500ms ease-in,
+  -webkit-transition: opacity 1400ms ease-in, -webkit-transform 7000ms ease;
+  transition: opacity 1400ms ease-in, -webkit-transform 7000ms ease;
+  transition: transform 7000ms ease, opacity 1400ms ease-in;
+  transition: transform 7000ms ease, opacity 1400ms ease-in,
     -webkit-transform 7000ms ease;
   z-index: 1;
 }
@@ -2826,7 +2826,7 @@ ul {
   border-radius: 50%;
   margin: 0;
   text-align: center;
-  transition: all 500ms ease;
+  transition: all 400ms ease;
 }
 
 .main-slider-two__nav .swiper-button-next:hover,
@@ -2883,10 +2883,10 @@ ul {
   background-position: center;
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: opacity 1500ms ease-in, -webkit-transform 7000ms ease;
-  transition: transform 7000ms ease, opacity 1500ms ease-in;
-  transition: transform 7000ms ease, opacity 1500ms ease-in,
+  -webkit-transition: opacity 1400ms ease-in, -webkit-transform 7000ms ease;
+  transition: opacity 1400ms ease-in, -webkit-transform 7000ms ease;
+  transition: transform 7000ms ease, opacity 1400ms ease-in;
+  transition: transform 7000ms ease, opacity 1400ms ease-in,
     -webkit-transform 7000ms ease;
   z-index: 1;
 }
@@ -3018,7 +3018,7 @@ ul {
   border-radius: 50%;
   margin: 0;
   text-align: center;
-  transition: all 500ms ease;
+  transition: all 400ms ease;
   padding: 23px 0;
 }
 
@@ -3140,9 +3140,10 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  /* background-color: var(--roofsie-black); */
+  background-color: #ccc;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   opacity: 0;
   visibility: hidden;
   border-bottom-left-radius: 10px;
@@ -3195,8 +3196,8 @@ ul {
   display: inline-block;
   font-size: 65px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
@@ -3219,19 +3220,19 @@ ul {
 
 .feature-one__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .feature-one__single:hover .feature-one__title a {
-  color: var(--roofsie-white);
+  /* color: var(--roofsie-white); */
 }
 
 .feature-one__text {
   padding-top: 21px;
   padding-bottom: 11px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .feature-one__single:hover .feature-one__text {
@@ -3250,8 +3251,8 @@ ul {
   color: var(--roofsie-black);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .feature-one__single:hover .feature-one__read-more a {
@@ -3271,12 +3272,12 @@ ul {
   text-align: center;
   top: -2px;
   margin-left: 5px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .feature-one__single:hover .feature-one__read-more a i {
-  color: var(--roofsie-black);
+  /* color: var(--roofsie-black); */
 }
 
 /*--------------------------------------------------------------
@@ -3627,8 +3628,8 @@ ul {
   display: inline-block;
   font-size: 45px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
@@ -3646,8 +3647,8 @@ ul {
 
 .services-one__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .services-one__title a:hover {
@@ -3669,8 +3670,8 @@ ul {
   color: var(--roofsie-black);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .services-one__read-more:hover a {
@@ -3690,8 +3691,8 @@ ul {
   text-align: center;
   top: -2px;
   margin-left: 5px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 /*--------------------------------------------------------------
@@ -3781,8 +3782,8 @@ ul {
   padding: 33px 35px 29px;
   margin-bottom: 30px;
   border-bottom: 4px solid #ede8e4;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-one__points-single:hover {
@@ -3800,8 +3801,8 @@ ul {
   display: inline-block;
   font-size: 64px;
   color: var(--roofsie-base);
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
@@ -3954,8 +3955,8 @@ ul {
 
 .brand-one__img > img {
   position: relative;
-  -webkit-transition: 500ms;
-  transition: 500ms;
+  -webkit-transition: 400ms;
+  transition: 400ms;
   opacity: 0.3;
 }
 
@@ -4030,13 +4031,13 @@ ul {
     rgb(255, 255, 255) 0%,
     rgba(255, 255, 255, 0) 100%
   );
-  transition: all 500ms ease;
+  transition: all 400ms ease;
   z-index: 2;
 }
 
 .project-one__single:hover .project-one__img-box:before {
   height: 100%;
-  transition-delay: 500ms;
+  transition-delay: 400ms;
 }
 
 .project-one__img-box:after {
@@ -4071,7 +4072,7 @@ ul {
 
 .project-one__single:hover .project-one__img-box:after {
   width: 101%;
-  transition-delay: 500ms;
+  transition-delay: 400ms;
 }
 
 .project-one__img {
@@ -4119,7 +4120,7 @@ ul {
   border-radius: var(--roofsie-bdr-radius);
   -webkit-transform: scale(1);
   transform: scale(1);
-  transition: all 500ms ease;
+  transition: all 400ms ease;
 }
 
 .project-one__single:hover .project-one__img img {
@@ -4172,7 +4173,7 @@ ul {
 .project-one__single:hover .project-one__link {
   transform: scale(1);
   opacity: 1;
-  transition-delay: 500ms;
+  transition-delay: 400ms;
 }
 
 .project-one__link a {
@@ -4435,8 +4436,8 @@ ul {
   right: 0;
   content: "";
   background-color: rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: -1;
 }
 
@@ -4512,8 +4513,8 @@ ul {
   border-radius: var(--roofsie-bdr-radius);
   background-color: rgb(255, 255, 255);
   padding: 50px 50px 45px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .testimonial-one__single:hover {
@@ -4532,8 +4533,8 @@ ul {
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-bottom-left-radius: var(--roofsie-bdr-radius);
   transform: scaleY(0);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .testimonial-one__single:hover:before {
@@ -4611,8 +4612,8 @@ ul {
   padding: 13px 20px 14px;
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-bottom-left-radius: var(--roofsie-bdr-radius);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .testimonial-one__single:hover .testimonial-one__rating {
@@ -4627,8 +4628,8 @@ ul {
   border-top: 0px solid transparent;
   border-left: 20px solid #ede8e4;
   border-bottom: 15px solid transparent;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .testimonial-one__single:hover .testimonial-one__rating:after {
@@ -4638,8 +4639,8 @@ ul {
 .testimonial-one__rating i {
   font-size: 13px;
   color: var(--roofsie-base);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .testimonial-one__single:hover .testimonial-one__rating i {
@@ -4657,7 +4658,7 @@ ul {
 .testimonial-one__carousel.owl-carousel .owl-item {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 500ms ease, visibility 500ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease;
 }
 
 .testimonial-one__carousel.owl-carousel .owl-item.active {
@@ -4684,8 +4685,8 @@ ul {
   position: relative;
   display: block;
   margin-bottom: 30px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-one__single:hover {
@@ -4710,13 +4711,13 @@ ul {
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
   background-color: rgba(var(--roofsie-black-rgb), 0.5);
-  -webkit-transition: opacity 500ms ease, visibility 500ms ease,
-    -webkit-transform 500ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease,
-    -webkit-transform 500ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease,
-    -webkit-transform 500ms ease;
+  -webkit-transition: opacity 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease, transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease, transform 400ms ease,
+    -webkit-transform 400ms ease;
   visibility: hidden;
   opacity: 0;
   -webkit-transform: translateY(-70%);
@@ -4735,7 +4736,7 @@ ul {
   width: 100%;
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
-  transition: all 500ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-one__single:hover .blog-one__img img {
@@ -4751,8 +4752,8 @@ ul {
   border-bottom-left-radius: var(--roofsie-bdr-radius);
   border-bottom-right-radius: var(--roofsie-bdr-radius);
   border-bottom: 5px solid transparent;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-one__single:hover .blog-one__content {
@@ -4803,8 +4804,8 @@ ul {
 
 .blog-one__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-one__title a:hover {
@@ -4826,8 +4827,8 @@ ul {
   color: var(--roofsie-black);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-one__read-more:hover a {
@@ -4847,8 +4848,8 @@ ul {
   text-align: center;
   top: -2px;
   margin-left: 5px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 /*--------------------------------------------------------------
@@ -5056,8 +5057,8 @@ ul {
   font-size: 15px;
   border-radius: 50%;
   overflow: hidden;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 1;
 }
 
@@ -5134,8 +5135,8 @@ ul {
   font-size: 15px;
   color: #86838c;
   font-weight: 400;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .footer-widget__explore-list li a:hover {
@@ -5243,8 +5244,8 @@ ul {
 
 .footer-widget__contact-list li .text p a {
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .footer-widget__contact-list li .text p a:hover {
@@ -5272,8 +5273,8 @@ ul {
 
 .site-footer__bottom-text a {
   color: #86838c;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .site-footer__bottom-text a:hover {
@@ -5336,8 +5337,8 @@ ul {
   color: var(--roofsie-base);
   border-radius: 50%;
   font-size: 25px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .about-two__points li:hover .icon {
@@ -5534,7 +5535,7 @@ ul {
   color: var(--roofsie-base);
   position: relative;
   display: inline-block;
-  transition: all 500ms linear;
+  transition: all 400ms linear;
   transition-delay: 0.1s;
   transform: scale(1);
 }
@@ -5554,8 +5555,8 @@ ul {
 
 .services-two__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .services-two__title a:hover {
@@ -5578,8 +5579,8 @@ ul {
   letter-spacing: 0.1em;
   color: var(--roofsie-black);
   font-weight: 800;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .services-two__read-more a:hover {
@@ -5600,8 +5601,8 @@ ul {
   text-align: center;
   top: -2px;
   margin-right: 4px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .services-two__read-more a:hover i {
@@ -5669,8 +5670,8 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__list-one li:hover .icon {
@@ -5686,8 +5687,8 @@ ul {
   border-left: 10px solid var(--roofsie-base);
   border-bottom: 18px solid transparent;
   transform: translateY(-50%);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__list-one li:hover .icon:before {
@@ -5699,8 +5700,8 @@ ul {
   color: var(--roofsie-white);
   position: relative;
   display: inline-block;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__list-one li:hover .icon span {
@@ -5740,8 +5741,8 @@ ul {
   font-size: 16px;
   font-weight: 600;
   color: var(--roofsie-base);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__read-more a:hover {
@@ -5761,8 +5762,8 @@ ul {
   text-align: center;
   top: -2px;
   margin-left: 5px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__read-more a:hover i {
@@ -5853,8 +5854,8 @@ ul {
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__list-two li:hover .icon {
@@ -5870,8 +5871,8 @@ ul {
   border-right: 10px solid var(--roofsie-base);
   border-bottom: 18px solid transparent;
   transform: translateY(-50%);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__list-two li:hover .icon:before {
@@ -5883,8 +5884,8 @@ ul {
   color: var(--roofsie-white);
   position: relative;
   display: inline-block;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__list-two li:hover .icon span {
@@ -5903,8 +5904,8 @@ ul {
   font-size: 16px;
   font-weight: 600;
   color: var(--roofsie-base);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__read-more a:hover {
@@ -5924,8 +5925,8 @@ ul {
   text-align: center;
   top: -2px;
   margin-left: 5px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .why-choose-two__read-more a:hover i {
@@ -5983,7 +5984,7 @@ ul {
 .testimonial-two__carousel.owl-carousel .owl-item {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 500ms ease, visibility 500ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease;
 }
 
 .testimonial-two__carousel.owl-carousel .owl-item.active {
@@ -6112,8 +6113,8 @@ ul {
   top: -1px;
   content: "";
   background: var(--roofsie-base);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   border-radius: 0;
   transform: scale(0);
   z-index: -1;
@@ -6137,8 +6138,8 @@ ul {
   display: block;
   padding: 0 0;
   opacity: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   height: 20px;
   width: 20px;
   background-color: var(--roofsie-black);
@@ -6225,7 +6226,7 @@ ul {
   border-radius: var(--roofsie-bdr-radius);
   -webkit-transform: scale(1);
   transform: scale(1);
-  transition: all 500ms ease;
+  transition: all 400ms ease;
 }
 
 .project-two__single:hover .project-two__img img {
@@ -6395,8 +6396,8 @@ ul {
 
 .pricing-one__contact-number a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .pricing-one__contact-number a:hover {
@@ -6421,8 +6422,8 @@ ul {
 
 .pricing-one__contact-email a {
   color: var(--roofsie-base);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .pricing-one__contact-email a:hover {
@@ -6835,8 +6836,8 @@ ul {
   color: var(--roofsie-white);
   margin: 0;
   padding: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .newsletter-btn:hover {
@@ -6877,13 +6878,13 @@ ul {
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
   background-color: rgba(var(--roofsie-black-rgb), 0.5);
-  -webkit-transition: opacity 500ms ease, visibility 500ms ease,
-    -webkit-transform 500ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease,
-    -webkit-transform 500ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
-  transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease,
-    -webkit-transform 500ms ease;
+  -webkit-transition: opacity 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease,
+    -webkit-transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease, transform 400ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease, transform 400ms ease,
+    -webkit-transform 400ms ease;
   visibility: hidden;
   opacity: 0;
   -webkit-transform: translateY(-70%);
@@ -6902,7 +6903,7 @@ ul {
   width: 100%;
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
-  transition: all 500ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-two__single:hover .blog-two__img img {
@@ -6917,8 +6918,8 @@ ul {
   border-bottom-left-radius: var(--roofsie-bdr-radius);
   border-bottom-right-radius: var(--roofsie-bdr-radius);
   background-color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-two__single:hover .blog-two__content-box {
@@ -6971,8 +6972,8 @@ ul {
 
 .blog-two__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-two__title a:hover {
@@ -7048,8 +7049,8 @@ ul {
   text-align: center;
   top: -2px;
   padding-left: 2px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-two__single:hover .blog-two__read-more a i {
@@ -7256,7 +7257,7 @@ ul {
   position: absolute;
   top: 7px;
   width: 20px;
-  transition: all 500ms ease;
+  transition: all 400ms ease;
   cursor: pointer;
 }
 
@@ -7354,8 +7355,8 @@ ul {
   display: inline-block;
   font-size: 45px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
@@ -7440,8 +7441,8 @@ ul {
 
 .services-three__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .services-three__title a:hover {
@@ -7778,8 +7779,8 @@ ul {
 
 .project-three__title a {
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .project-three__title a:hover {
@@ -7862,7 +7863,7 @@ ul {
   transform: translateY(100%);
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
-  transition: all 500ms ease;
+  transition: all 400ms ease;
   z-index: 1;
 }
 
@@ -7875,8 +7876,8 @@ ul {
   width: 100%;
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .team-one__single:hover .team-one__img img {
@@ -7904,11 +7905,11 @@ ul {
 
 .team-one__single:hover .team-one__social {
   transform: scaleY(1);
-  -webkit-transition-delay: 500ms;
-  -moz-transition-delay: 500ms;
-  -ms-transition-delay: 500ms;
-  -o-transition-delay: 500ms;
-  transition-delay: 500ms;
+  -webkit-transition-delay: 400ms;
+  -moz-transition-delay: 400ms;
+  -ms-transition-delay: 400ms;
+  -o-transition-delay: 400ms;
+  transition-delay: 400ms;
 }
 
 .team-one__social li + li {
@@ -7921,8 +7922,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .team-one__social li a:hover {
@@ -7953,8 +7954,8 @@ ul {
 
 .team-one__name a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .team-one__name a:hover {
@@ -7965,8 +7966,8 @@ ul {
   position: absolute;
   right: 40px;
   top: 40px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 2;
 }
 
@@ -7976,8 +7977,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   height: 40px;
   width: 40px;
   background-color: var(--roofsie-base);
@@ -7994,8 +7995,8 @@ ul {
   right: 10px;
   mix-blend-mode: luminosity;
   opacity: 0.05;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   transform: translateY(100%);
 }
 
@@ -8114,8 +8115,8 @@ ul {
   display: inline-block;
   font-size: 50px;
   color: var(--roofsie-white);
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
 }
@@ -8235,8 +8236,8 @@ ul {
   position: absolute;
   top: 7px;
   left: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .faq-one__point li:hover .icon {
@@ -8266,8 +8267,8 @@ ul {
   border: 2px solid var(--roofsie-primary);
   border-radius: 5px;
   background-color: var(--roofsie-white);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .faq-one-accrodion .accrodion:before {
@@ -8281,8 +8282,8 @@ ul {
   transform: scaleY(0);
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 1;
 }
 
@@ -8307,8 +8308,8 @@ ul {
   line-height: 28px;
   color: var(--roofsie-black);
   position: relative;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .faq-one-accrodion .accrodion + .accrodion {
@@ -8342,8 +8343,8 @@ ul {
   align-items: center;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   text-align: center;
 }
 
@@ -8522,8 +8523,8 @@ ul {
   align-items: center;
   font-size: 65px;
   color: var(--roofsie-base);
-  -webkit-transition: all 500ms linear;
-  transition: all 500ms linear;
+  -webkit-transition: all 400ms linear;
+  transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
   -webkit-transform: scale(1) rotateY(0deg);
@@ -8656,8 +8657,8 @@ ul {
   color: var(--roofsie-base);
   font-size: 16px;
   font-weight: 600;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .thm-breadcrumb li + li {
@@ -8670,8 +8671,8 @@ ul {
   color: var(--roofsie-base);
   font-size: 16px;
   font-weight: 600;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .thm-breadcrumb li:hover a {
@@ -8745,8 +8746,8 @@ ul {
   font-size: 16px;
   font-weight: 400;
   color: var(--roofsie-gray);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-sidebar__meta li a:hover {
@@ -8768,8 +8769,8 @@ ul {
 
 .blog-sidebar__title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-sidebar__title a:hover {
@@ -8924,8 +8925,8 @@ ul {
 
 .blog-sidebar__delivering-services-title a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-sidebar__delivering-services-title a:hover {
@@ -9049,8 +9050,8 @@ ul {
   align-items: center;
   padding: 15px 20px 16px;
   padding-right: 18px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   border-radius: var(--roofsie-bdr-radius);
 }
 
@@ -9085,8 +9086,8 @@ ul {
   font-size: 14px;
   font-weight: 600;
   color: var(--roofsie-gray) !important;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .sidebar__post-content-meta i {
@@ -9097,8 +9098,8 @@ ul {
 
 .sidebar__post-content h3 a {
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   display: block;
   font-size: 16px;
   font-weight: 700;
@@ -9129,8 +9130,8 @@ ul {
   color: var(--roofsie-gray);
   font-size: 16px;
   position: relative;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   display: block;
   background: none;
   padding: 6px 20px 6px;
@@ -9158,8 +9159,8 @@ ul {
   right: 30px;
   -webkit-transform: translateY(-50%) scale(0);
   transform: translateY(-50%) scale(0);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   color: var(--roofsie-base);
   text-align: center;
   display: -webkit-box;
@@ -9347,8 +9348,8 @@ ul {
   font-size: 16px;
   font-weight: 400;
   color: var(--roofsie-gray);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-details__meta li a:hover {
@@ -9411,8 +9412,8 @@ ul {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   border-radius: var(--roofsie-bdr-radius);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .blog-details__tags a:hover {
@@ -9452,8 +9453,8 @@ ul {
   font-size: 15px;
   border-radius: 50%;
   overflow: hidden;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 1;
 }
 
@@ -9518,8 +9519,8 @@ ul {
   font-weight: 700;
   background-color: var(--roofsie-primary);
   line-height: 34px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   max-width: 370px;
   width: 100%;
   padding-left: 60px;
@@ -9784,8 +9785,8 @@ ul {
   font-size: 15px;
   border-radius: 50%;
   overflow: hidden;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: 1;
 }
 
@@ -9837,8 +9838,8 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .work-details__pagination li a:hover {
@@ -9875,8 +9876,8 @@ ul {
   border-radius: 50%;
   color: rgba(var(--roofsie-black-rgb), 0.2);
   font-size: 17px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   margin-right: 20px;
   z-index: 1;
 }
@@ -9903,8 +9904,8 @@ ul {
   border-radius: 50%;
   color: rgba(var(--roofsie-black-rgb), 0.2);
   font-size: 17px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   margin-left: 20px;
   z-index: 1;
 }
@@ -10000,8 +10001,8 @@ ul {
   font-size: 16px;
   font-weight: 800;
   position: relative;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   display: block;
   background: none;
   padding: 15px 40px 15px;
@@ -10028,8 +10029,8 @@ ul {
   background-color: var(--roofsie-base);
   border-radius: var(--roofsie-bdr-radius);
   transform: scaleX(0);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   z-index: -1;
 }
 
@@ -10047,8 +10048,8 @@ ul {
   right: 40px;
   -webkit-transform: translateY(-50%) scale(1);
   transform: translateY(-50%) scale(1);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
   color: var(--roofsie-black);
   text-align: center;
   display: -webkit-box;
@@ -10117,8 +10118,8 @@ ul {
   justify-content: center;
   border-radius: 50%;
   margin: 0 auto 24px;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .service-details__need-help-icon:hover {
@@ -10128,8 +10129,8 @@ ul {
 .service-details__need-help-icon span {
   font-size: 30px;
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .service-details__need-help-icon:hover span {
@@ -10161,8 +10162,8 @@ ul {
   font-size: 18px;
   color: var(--roofsie-white);
   font-weight: 700;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .service-details__need-help-contact a:hover {
@@ -10284,7 +10285,7 @@ ul {
   display: flex;
   font-size: 38px;
   color: var(--roofsie-base);
-  transition: all 500ms linear;
+  transition: all 400ms linear;
   transition-delay: 0.1s;
   transform: scale(1);
 }
@@ -10434,8 +10435,8 @@ ul {
   border: 10px solid var(--roofsie-base);
   border-radius: 50%;
   margin: 0 auto;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .contact-details__list li:hover .contact-details__icon {
@@ -10447,8 +10448,8 @@ ul {
   display: inline-block;
   font-size: 20px;
   color: var(--roofsie-black);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .contact-details__list li:hover .contact-details__icon span {
@@ -10472,8 +10473,8 @@ ul {
   position: relative;
   display: block;
   color: var(--roofsie-gray);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .contact-details__number-1:hover {
@@ -10484,8 +10485,8 @@ ul {
   position: relative;
   display: block;
   color: var(--roofsie-gray);
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .contact-details__number-2:hover {
@@ -10631,8 +10632,8 @@ ul {
   color: var(--roofsie-black);
   font-size: 15px;
   border-radius: 50%;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .team-details__social a:hover {
@@ -10734,8 +10735,8 @@ ul {
   height: 13px;
   border-radius: 7px;
   background-color: var(--roofsie-base);
-  -webkit-transition: all 1500ms ease;
-  transition: all 1500ms ease;
+  -webkit-transition: all 1400ms ease;
+  transition: all 1400ms ease;
 }
 
 .team-details__progress .count-text {
@@ -10748,8 +10749,8 @@ ul {
   text-align: center;
   font-weight: 500;
   opacity: 0;
-  -webkit-transition: all 500ms ease;
-  transition: all 500ms ease;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 
 .team-details__progress .bar-inner.counted .count-text {
@@ -10830,10 +10831,10 @@ ul {
   border-radius: var(--roofsie-bdr-radius);
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: -webkit-transform 500ms ease;
-  transition: -webkit-transform 500ms ease;
-  transition: transform 500ms ease;
-  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  -webkit-transition: -webkit-transform 400ms ease;
+  transition: -webkit-transform 400ms ease;
+  transition: transform 400ms ease;
+  transition: transform 400ms ease, -webkit-transform 400ms ease;
 }
 
 .gallery-page__single:hover .gallery-page__img img {
@@ -11106,7 +11107,7 @@ ul {
 .carousel-dot-style.owl-carousel .owl-item {
   opacity: 0;
   visibility: hidden;
-  transition: opacity 500ms ease, visibility 500ms ease;
+  transition: opacity 400ms ease, visibility 400ms ease;
 }
 
 .carousel-dot-style.owl-carousel .owl-item.active {
