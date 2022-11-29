@@ -314,11 +314,12 @@ ul {
 .section-title-shape-1 {
   position: absolute;
   top: -4px;
-  left: -40px;
+  left: -35px;
+  width: 20px;
 }
 
 .section-title-shape-1 img {
-  width: auto;
+  width: 100%;
 }
 
 .section-title-shape-2 img {
@@ -3867,7 +3868,7 @@ ul {
 .why-choose-one__author-sign {
   position: absolute;
   top: 225px;
-  left: 0;
+  left: -300px;
 }
 
 .why-choose-one__author-sign p {
@@ -3890,7 +3891,7 @@ ul {
 .brand-one__inner {
   position: relative;
   display: block;
-  padding: 45px 0 45px;
+  padding: 65px 0 65px;
   overflow: hidden;
 }
 
@@ -4859,6 +4860,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--roofsie-base);
+  z-index: 999;
 }
 
 .cta-one__img-box {
