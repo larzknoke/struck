@@ -1169,6 +1169,10 @@ ul {
   display: flex;
 }
 
+.mobile-nav__content .logo-box img {
+  width: 90%;
+}
+
 .mobile-nav__close {
   position: absolute;
   top: 20px;
@@ -4967,7 +4971,7 @@ ul {
   position: relative;
   display: block;
   background-color: var(--roofsie-black);
-  z-index: 1;
+  z-index: -999;
 }
 
 .site-footer-img-1 {
@@ -7518,6 +7522,7 @@ ul {
 .about-three__img > img {
   width: 100%;
   border-radius: 10px;
+  width: 130%;
 }
 
 .about-three__img-two {
@@ -7532,6 +7537,9 @@ ul {
 .about-three__img-two > img {
   width: auto;
   border-radius: 10px;
+  width: 400px;
+  height: 325px;
+  object-fit: cover;
 }
 
 .about-three__border {
@@ -10454,7 +10462,7 @@ ul {
 .contact-details__icon span {
   position: relative;
   display: inline-block;
-  font-size: 20px;
+  font-size: 30px;
   color: var(--roofsie-black);
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;

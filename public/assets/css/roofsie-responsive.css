@@ -732,6 +732,10 @@
     display: none;
   }
 
+  .about-three__img > img {
+    width: 100%;
+  }
+
   .about-three__border {
     display: none;
   }
