@@ -574,6 +574,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    gap: 20px;
   }
 
   .cta-one__left {
@@ -1162,7 +1163,7 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 275px;
+    padding-left: 355px;
     padding-right: 30px;
   }
 
@@ -1226,7 +1227,7 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 275px;
+    padding-left: 355px;
     padding-right: 30px;
   }
 

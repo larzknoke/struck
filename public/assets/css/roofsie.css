@@ -644,7 +644,7 @@ ul {
 
 .main-menu__wrapper-inner {
   display: block;
-  padding-left: 375px;
+  padding-left: 410px;
   padding-right: 60px;
 }
 
@@ -4945,6 +4945,7 @@ ul {
 
 .cta-one__btn {
   background-color: var(--roofsie-black);
+  white-space: nowrap;
 }
 
 .cta-one__btn i {
