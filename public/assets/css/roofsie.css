@@ -11249,7 +11249,12 @@ body.boxed-wrapper {
 /* CUSTOM */
 
 .nav-logo img {
-  width: 210px;
+  display: none;
+}
+
+.stricky-fixed .nav-logo img {
+  width: 150px;
+  display: block;
 }
 
 .main-header__logo {
@@ -11257,10 +11262,30 @@ body.boxed-wrapper {
 }
 
 .main-header__logo img {
-  width: 220px;
+  width: 200px;
 }
 
 .project-one .owl-carousel .owl-item img {
   height: 250px;
   object-fit: cover;
+}
+
+.main-menu__right {
+  padding: 30px 0;
+}
+
+.stricky-fixed .main-menu__right {
+  padding: 37px 0;
+}
+
+.main-menu .main-menu__list > li,
+.stricky-header .main-menu__list > li {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.stricky-fixed.main-menu .main-menu__list > li,
+.stricky-fixed.stricky-header .main-menu__list > li {
+  padding-top: 35px;
+  padding-bottom: 35px;
 }
