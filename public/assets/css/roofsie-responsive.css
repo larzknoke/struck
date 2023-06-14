@@ -574,6 +574,7 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    gap: 20px;
   }
 
   .cta-one__left {
@@ -730,6 +731,10 @@
 
   .about-three__img-two {
     display: none;
+  }
+
+  .about-three__img > img {
+    width: 100%;
   }
 
   .about-three__border {
@@ -1105,11 +1110,11 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 330px;
+    padding-left: 410px;
   }
 
   .main-header__top {
-    padding-left: 300px;
+    padding-left: 410px;
   }
 }
 
@@ -1158,7 +1163,7 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 275px;
+    padding-left: 355px;
     padding-right: 30px;
   }
 
@@ -1222,7 +1227,7 @@
   }
 
   .main-menu__wrapper-inner {
-    padding-left: 275px;
+    padding-left: 355px;
     padding-right: 30px;
   }
 
