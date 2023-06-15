@@ -10403,7 +10403,7 @@ ul {
 .contact-details {
   position: relative;
   display: block;
-  padding: 120px 0 90px;
+  padding: 160px 0 90px;
 }
 
 .contact-details__list {
@@ -10450,17 +10450,21 @@ ul {
   transition: all 400ms ease;
 }
 
-.contact-details__list li:hover .contact-details__icon {
+.contact-details__list li .contact-details__icon {
   background-color: var(--roofsie-base);
+}
+.contact-details__list li:hover .contact-details__icon {
+  transform: scale(1.05);
 }
 
 .contact-details__icon span {
   position: relative;
   display: inline-block;
-  font-size: 20px;
-  color: var(--roofsie-black);
+  font-size: 35px;
+  color: var(--roofsie-gray);
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
+  color: var(--roofsie-white);
 }
 
 .contact-details__list li:hover .contact-details__icon span {
@@ -10525,7 +10529,7 @@ ul {
 }
 
 .contact-page .container {
-  max-width: 770px;
+  max-width: 960px;
 }
 
 .contact-page__form {
