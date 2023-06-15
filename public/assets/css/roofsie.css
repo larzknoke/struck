@@ -318,11 +318,11 @@ ul {
 }
 
 .section-title-shape-1 img {
-  width: auto;
+  width: 20px;
 }
 
 .section-title-shape-2 img {
-  width: auto;
+  width: 20px;
 }
 
 .section-title__title {
@@ -3194,12 +3194,13 @@ ul {
 .feature-one__icon span {
   position: relative;
   display: inline-block;
-  font-size: 65px;
+  font-size: 60px;
   color: var(--roofsie-white);
   -webkit-transition: all 400ms linear;
   transition: all 400ms linear;
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
+  padding: 10px 15px;
 }
 
 .feature-one__single:hover .feature-one__icon span {
@@ -3552,6 +3553,7 @@ ul {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   z-index: 1;
+  height: 300px;
 }
 
 .services-one__img:before {
@@ -3592,6 +3594,8 @@ ul {
   transition-timing-function: ease-in-out;
   transition-duration: 0.7s;
   transition-property: all;
+  object-fit: cover;
+  height: 100%;
 }
 
 .services-one__single:hover .services-one__img img {
@@ -3867,7 +3871,7 @@ ul {
 .why-choose-one__author-sign {
   position: absolute;
   top: 225px;
-  left: 0;
+  left: -300px;
 }
 
 .why-choose-one__author-sign p {
@@ -4699,6 +4703,7 @@ ul {
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
   overflow: hidden;
+  height: 300px;
 }
 
 .blog-one__img:before {
@@ -4737,6 +4742,8 @@ ul {
   border-top-left-radius: var(--roofsie-bdr-radius);
   border-top-right-radius: var(--roofsie-bdr-radius);
   transition: all 400ms ease;
+  height: 100%;
+  object-fit: cover;
 }
 
 .blog-one__single:hover .blog-one__img img {
@@ -4899,7 +4906,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 370px;
+  padding-left: 400px;
   padding-top: 77px;
   padding-bottom: 77px;
 }
@@ -4929,6 +4936,7 @@ ul {
 .cta-one__btn-box {
   position: relative;
   display: block;
+  white-space: nowrap;
 }
 
 .cta-one__btn {
@@ -4960,6 +4968,7 @@ ul {
   display: block;
   background-color: var(--roofsie-black);
   z-index: 1;
+  overflow: hidden;
 }
 
 .site-footer-img-1 {
