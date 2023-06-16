@@ -1,0 +1,127 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/Footer.astro";
+import SideNav from "../../components/sideNav.astro";
+---
+
+<Layout title="Dachdeckermeister | Struck">
+  <!--Page Header Start-->
+  <!--Page Header Start-->
+  <section class="page-header">
+    <div
+      class="page-header-bg"
+      style="background-image: url(/assets/images/struck/dach/dach13.jpg); background-position: 50%;"
+    >
+    </div>
+    <div class="container">
+      <div class="page-header__inner">
+        <ul class="thm-breadcrumb list-unstyled">
+          <li><a href="/">Home</a></li>
+          <li><span>/</span></li>
+          <li><a href="/leistungen">Leistungen</a></li>
+        </ul>
+        <h2>Unsere Leistungen</h2>
+      </div>
+    </div>
+  </section>
+  <!--Page Header End-->
+
+  <!--Service Details Start-->
+  <section class="service-details">
+    <div class="container">
+      <div class="row" style="--bs-gutter-x:60px">
+        <div class="col-xl-4 col-lg-5">
+          <SideNav leistung="abdichtung" />
+        </div>
+        <div class="col-xl-8 col-lg-7">
+          <div class="service-details__right">
+            <div class="service-details__img">
+              <img src="/assets/images/struck/dach/dach1.jpg" alt="" />
+              <div class="service-details__icon">
+                <span class="icon-joist"></span>
+              </div>
+            </div>
+            <div class="service-details__content">
+              <h3 class="service-details__content-title">Abdichtungen</h3>
+              <p class="service-details__text-1">
+                Sowohl das Abdichten mit bituminösen, als auch mit hochpolymeren
+                Abdichtungsbahnen, bis hin zum Gründachaufbau Vom privaten
+                Garagendach bis hin zu gewerblichen Hallen bieten wir einen
+                umfassenden Service.
+              </p>
+              <div class="service-details__benefits-single">
+                <div class="service-details__benefits-content">
+                  <p class="service-details__text-2">Details:</p>
+                  <ul class="list-unstyled service-details__benefits-points">
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-arrow-right"></i>
+                      </div>
+                      <div class="text">
+                        <p>Dachrinnen & Fallrohre</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-arrow-right"></i>
+                      </div>
+                      <div class="text">
+                        <p>Fassaden- und Dacheindeckungen</p>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="icon">
+                        <i class="fa fa-arrow-right"></i>
+                      </div>
+                      <div class="text">
+                        <p>
+                          mit sämtlichen Baumetallen, wie z.B. Aluminium,
+                          Kupfer, Titanzink
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="service-details__benefits">
+                <div class="row">
+                  <div class="col-xl-12">
+                    <div class="service-details__benefits-content">
+                      <h3 class="service-details__benefits-title">
+                        Referenzen
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-6">
+                    <div class="service-details__benefits-single">
+                      <div class="service-details__benefits-img">
+                        <img
+                          src="/assets/images/struck/dach/dach13.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-6">
+                    <div class="service-details__benefits-single">
+                      <div class="service-details__benefits-img">
+                        <img
+                          src="/assets/images/struck/dach/dach15.jpg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Service Details End-->
+    <Footer />
+  </section>
+</Layout>

@@ -4970,6 +4970,7 @@ ul {
   background-color: var(--roofsie-black);
   z-index: 1;
   overflow: hidden;
+  margin-top: 150px;
 }
 
 .site-footer-img-1 {
@@ -11324,4 +11325,29 @@ a.link:hover {
 
 .about-one__text {
   margin-top: 15px;
+}
+
+.service-details__benefits-points {
+  padding-top: 0;
+}
+
+.service-details__text-2 {
+  padding: 10px 0;
+}
+
+.service-details__points-box {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.service-details__points-icon {
+  flex: none;
+}
+
+.service-details__points-content p {
+  line-height: 32px;
+}
+
+.service-details__content-title {
+  margin: 40px 0 20px 0;
 }
