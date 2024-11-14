@@ -1400,4 +1400,9 @@
   .main-menu-three .mobile-nav__toggler:hover {
     color: var(--roofsie-base);
   }
+
+  
+  .main-header__logo img {
+    width: 150px;
+  }
 }

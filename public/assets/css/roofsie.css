@@ -11351,3 +11351,8 @@ a.link:hover {
 .service-details__content-title {
   margin: 40px 0 20px 0;
 }
+
+
+.mobile-nav__content .logo-box img{
+ width: 200px;
+}
