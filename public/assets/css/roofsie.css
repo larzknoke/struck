@@ -10551,6 +10551,15 @@ ul {
   display: block;
   padding: 120px 0 90px;
 }
+.team-page .container {
+  margin-bottom: 100px;
+}
+.team-page .section-title__title {
+  font-size: 40px;
+}
+.team-page a:hover {
+  color: var(--roofsie-base) !important;
+}
 
 /*--------------------------------------------------------------
 # Team Details
@@ -11352,7 +11361,6 @@ a.link:hover {
   margin: 40px 0 20px 0;
 }
 
-
-.mobile-nav__content .logo-box img{
- width: 200px;
+.mobile-nav__content .logo-box img {
+  width: 200px;
 }

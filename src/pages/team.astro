@@ -1,6 +1,40 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Footer from "../components/Footer.astro";
+
+const team = {
+  geschaeftsfuerung: [
+    {
+      name: "Niklas Lauter",
+      title: "Dachdecker- & Klempnermeister",
+      image: "Lauter",
+    },
+    { name: "Thomas Struck", title: "Dachdeckermeister", image: "Struck" },
+  ],
+  baustelle: [
+    { name: "Jendrik Kahl", title: "Dachdeckermeister", image: "Jungs8" },
+    { name: "Leonard Saum", title: "Dachdecker", image: "Jungs1" },
+    { name: "Valid Karimi", title: "Dachdecker", image: "Jungs2" },
+    { name: "Habib Babaqoul", title: "Dachdecker", image: "Jungs6" },
+    { name: "Hubert Oppermann", title: "Dachdecker", image: "Jungs9" },
+    { name: "Erik Merhl", title: "Dachdecker", image: "Jungs14" },
+    { name: "Kazem Adeli", title: "Dachdecker", image: "Jungs12" },
+    { name: "Bakhir Amirov", title: "Dachdecker", image: "Jungs7" },
+    { name: "Luca Schallenberg", title: "Dachdecker", image: "Jungs4" },
+    { name: "Max Odendahl", title: "Azubi", image: "Jungs10" },
+    { name: "Nick Rothmann", title: "Azubi", image: "Jungs11" },
+    { name: "Vincent Happe", title: "Azubi", image: "Jungs5" },
+    { name: "Till Wickert", title: "Azubi", image: "Jungs15" },
+    { name: "Wolfgang Gebler", title: "Lagerist", image: "Jungs13" },
+  ],
+  buero: [
+    { name: "Kim Sophie Kück", title: "Bürokauffrau", image: "buro1" },
+    { name: "Sylvia Potthoff", title: "Bürokauffrau", image: "buro2" },
+    { name: "Nicole Gebler", title: "Bürokauffrau", image: "no-img-buero" },
+    { name: "Ute Bitterg", title: "Bürokauffrau", image: "buro3" },
+    { name: "Luca Seer", title: "Azubi", image: "buro4" },
+  ],
+};
 ---
 
 <Layout title="Dachdeckermeister | Struck">
@@ -26,705 +60,166 @@ import Footer from "../components/Footer.astro";
   <section class="team-page">
     <div class="container">
       <div class="row">
-        <!--Team One Single Start-->
+        <div class="section-title text-left wow fadeInUp">
+          <div class="section-sub-title-box">
+            <p class="section-sub-title">Team</p>
+            <div class="section-title-shape-1">
+              <img src="/assets/images/struck/icons/roof1.svg" alt="" />
+            </div>
+          </div>
+          <h2 class="section-title__title">Geschäftsführung</h2>
+        </div>
+        {
+          team.geschaeftsfuerung.map((member) => (
+            <div
+              class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="100ms"
+            >
+              <div class="team-one__single">
+                <div class="team-one__img-box">
+                  <div class="team-one__img">
+                    <img
+                      src={`/assets/images/struck/team/${member.image}.jpg`}
+                      alt="Niklas Lauter | Geschäftsführung"
+                    />
+                  </div>
+                </div>
+                <div class="team-one__content-box">
+                  <div class="team-one__content">
+                    <h3 class="team-one__name">{member.name}</h3>
+                    <p class="team-one__sub-title">{member.title}</p>
+                    <div class="team-one__shape">
+                      <img
+                        src="/assets/images/shapes/team-one-shape.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-left wow fadeInUp">
+          <div class="section-sub-title-box">
+            <p class="section-sub-title">Team</p>
+            <div class="section-title-shape-1">
+              <img src="/assets/images/struck/icons/roof1.svg" alt="" />
+            </div>
+          </div>
+          <h2 class="section-title__title">Auf den Baustellen unterwegs</h2>
+        </div>
+        {
+          team.baustelle.map((member) => (
+            <div
+              class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="100ms"
+            >
+              <div class="team-one__single">
+                <div class="team-one__img-box">
+                  <div class="team-one__img">
+                    <img
+                      src={`/assets/images/struck/team/${member.image}.jpg`}
+                      alt="Niklas Lauter | Geschäftsführung"
+                    />
+                  </div>
+                </div>
+                <div class="team-one__content-box">
+                  <div class="team-one__content">
+                    <h3 class="team-one__name">{member.name}</h3>
+                    <p class="team-one__sub-title">{member.title}</p>
+
+                    <div class="team-one__shape">
+                      <img
+                        src="/assets/images/shapes/team-one-shape.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))
+        }
         <div
           class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
           data-wow-delay="100ms"
         >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/lauter.jpg"
-                  alt="Niklas Lauter | Geschäftsführung"
-                />
+          <a href="/kontakt">
+            <div class="team-one__single">
+              <div class="team-one__img-box">
+                <div class="team-one__img">
+                  <img
+                    src={`/assets/images/struck/team/werdeTeam.jpg`}
+                    alt="Niklas Lauter | Geschäftsführung"
+                  />
+                </div>
               </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Lauter</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
+              <div class="team-one__content-box">
+                <div class="team-one__content">
+                  <h3 class="team-one__name">Azubi für 2025 (m/w/d)</h3>
+                  <p class="team-one__sub-title">Wir suchen Dich!</p>
+
+                  <div class="team-one__shape">
+                    <img
+                      src="/assets/images/shapes/team-one-shape.png"
+                      alt=""
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
+          </a>
         </div>
-        <!--Team One Single End-->
-        <!--Team One Single Start-->
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Struck.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-left wow fadeInUp">
+          <div class="section-sub-title-box">
+            <p class="section-sub-title">Team</p>
+            <div class="section-title-shape-1">
+              <img src="/assets/images/struck/icons/roof1.svg" alt="" />
             </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
+          </div>
+          <h2 class="section-title__title">Büro</h2>
+        </div>{
+          team.buero.map((member) => (
+            <div
+              class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
+              data-wow-delay="100ms"
+            >
+              <div class="team-one__single">
+                <div class="team-one__img-box">
+                  <div class="team-one__img">
+                    <img
+                      src={`/assets/images/struck/team/${member.image}.jpg`}
+                      alt="Niklas Lauter | Geschäftsführung"
+                    />
+                  </div>
+                </div>
+                <div class="team-one__content-box">
+                  <div class="team-one__content">
+                    <h3 class="team-one__name">{member.name}</h3>
+                    <p class="team-one__sub-title">{member.title}</p>
+
+                    <div class="team-one__shape">
+                      <img
+                        src="/assets/images/shapes/team-one-shape.png"
+                        alt=""
+                      />
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs1.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs2.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs3.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs4.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs5.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs6.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs7.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs8.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs9.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs10.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs11.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs12.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs13.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs14.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/Jungs15.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/buro1.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/buro2.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/buro3.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp"
-          data-wow-delay="200ms"
-        >
-          <div class="team-one__single">
-            <div class="team-one__img-box">
-              <div class="team-one__img">
-                <img
-                  src="/assets/images/struck/team/buro4.jpg"
-                  alt="Struck | Geschäftsführung"
-                />
-              </div>
-              <ul class="list-unstyled team-one__social">
-                <li><a href="#"><i class="fas fa-phone"></i></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-              </ul>
-            </div>
-            <div class="team-one__content-box">
-              <div class="team-one__content">
-                <h3 class="team-one__name">
-                  <a href="team-details.html">Niklas Struck</a>
-                </h3>
-                <p class="team-one__sub-title">Geschäftsführer</p>
-                <ul class="list-unstyled team-one__social-two">
-                  <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
-                </ul>
-                <div class="team-one__shape">
-                  <img src="/assets/images/shapes/team-one-shape.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--Team One Single End-->
-        <!--Team One Single Start-->
-        <!--Team One Single End-->
+          ))
+        }
       </div>
     </div>
   </section>
