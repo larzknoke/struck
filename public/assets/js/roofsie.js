@@ -260,7 +260,7 @@
       },
       {
         accY: -50,
-      }
+      },
     );
   }
 
@@ -275,7 +275,7 @@
       },
       {
         accY: 0,
-      }
+      },
     );
   }
 
@@ -304,13 +304,13 @@
               complete: function () {
                 $t.find(".count-text").text(this.countNum);
               },
-            }
+            },
           );
         }
       },
       {
         accY: 0,
-      }
+      },
     );
   }
 
@@ -352,7 +352,7 @@
         {
           scrollTop: $(target).offset().top,
         },
-        1000
+        1000,
       );
 
       return false;
@@ -387,7 +387,7 @@
             $(form).find('input[type="text"]').val("");
             $(form).find('input[type="email"]').val("");
             $(form).find("textarea").val("");
-          }
+          },
         );
         return false;
       },
@@ -509,7 +509,7 @@
 
   if ($(".mobile-nav__container .main-menu__list").length) {
     let dropdownAnchor = $(
-      ".mobile-nav__container .main-menu__list .dropdown > a"
+      ".mobile-nav__container .main-menu__list .dropdown > a",
     );
     dropdownAnchor.each(function () {
       let self = $(this);
@@ -758,7 +758,7 @@
     if ($(".post-filter.has-dynamic-filters-counter").length) {
       // var allItem = $('.single-filter-item').length;
       var activeFilterItem = $(".post-filter.has-dynamic-filters-counter").find(
-        "li"
+        "li",
       );
       activeFilterItem.each(function () {
         var filterElement = $(this).data("filter");
@@ -817,7 +817,7 @@
               scrollTop: $(target.attr("href")).offset().top - headerH + "px",
             },
             1200,
-            "easeInOutExpo"
+            "easeInOutExpo",
           );
         anchor.removeClass("current");
         anchor.removeClass("current-menu-ancestor");
@@ -923,7 +923,7 @@
       // var allItem = $('.single-filter-item').length;
 
       var activeFilterItem = $(".post-filter.has-dynamic-filter-counter").find(
-        "li"
+        "li",
       );
 
       activeFilterItem.each(function () {
