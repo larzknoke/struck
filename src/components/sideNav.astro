@@ -23,36 +23,34 @@ const { leistung } = Astro.props;
         </a>
       </li>
 
-      <li>
-        <a href="roof-inspection.html"
+      <li class={leistung == "dachfenster" ? "active" : ""}>
+        <a href="/leistungen/dachfenster"
           >Dachfenstereinbau / -austausch <span class="fa fa-angle-right"
           ></span>
         </a>
       </li>
-
-      <li>
-        <a href="roof-installation.html"
+      <li class={leistung == "fassade" ? "active" : ""}>
+        <a href="/leistungen/fassade"
           >Fassade <span class="fa fa-angle-right"></span>
         </a>
       </li>
-
-      <li>
-        <a href="metal-roofing.html"
+      <li class={leistung == "pv" ? "active" : ""}>
+        <a href="/leistungen/pv"
           >PV-Anlagen <span class="fa fa-angle-right"></span>
         </a>
       </li>
-      <li>
-        <a href="metal-roofing.html"
+      <li class={leistung == "drohne" ? "active" : ""}>
+        <a href="/leistungen/drohne"
           >Drohnen-Inspektion <span class="fa fa-angle-right"></span>
         </a>
       </li>
-      <li>
-        <a href="metal-roofing.html"
+      <li class={leistung == "wartung" ? "active" : ""}>
+        <a href="/leistungen/wartung"
           >Wartung- & Reparaturarbeiten <span class="fa fa-angle-right"></span>
         </a>
       </li>
-      <li>
-        <a href="metal-roofing.html"
+      <li class={leistung == "holzbau" ? "active" : ""}>
+        <a href="/leistungen/holzbau"
           >Holzbau <span class="fa fa-angle-right"></span>
         </a>
       </li>
