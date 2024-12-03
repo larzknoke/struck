@@ -3948,7 +3948,7 @@ ul {
 .why-choose-one__points-box {
   position: relative;
   display: block;
-  margin-top: 41px;
+  margin-top: 50px;
 }
 
 .why-choose-one__points-single {
@@ -4044,9 +4044,10 @@ ul {
 }
 
 .why-choose-one__author-sign {
-  position: absolute;
+  /* position: absolute;
   top: 225px;
-  left: -300px;
+  left: -300px; */
+  margin-top: 20px;
 }
 
 .why-choose-one__author-sign p {
@@ -10409,7 +10410,8 @@ ul {
   display: block;
 }
 
-.service-details__img img {
+.service-details__img img,
+.service-details__img video {
   width: 100%;
   border-radius: var(--roofsie-bdr-radius);
 }
@@ -10615,8 +10617,8 @@ ul {
 
 .contact-details__list li {
   position: relative;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+  flex: 0 0 25%;
+  max-width: 25%;
   width: 100%;
   text-align: center;
   margin-bottom: 19px;
@@ -10675,6 +10677,7 @@ ul {
   position: relative;
   display: block;
   margin-top: 20px;
+  height: 50px;
 }
 
 .contact-details__content h4 {

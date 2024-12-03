@@ -1,6 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import Footer from "../components/Footer.astro";
+
+const refs = [
+  "/assets/images/struck/dach/dach1.jpg",
+  "/assets/images/struck/dach/dach10.jpg",
+  "/assets/images/struck/dach/dach4.jpg",
+  "/assets/images/struck/dach/dach12.jpg",
+  "/assets/images/struck/referenzen/ref1.jpg",
+  "/assets/images/struck/referenzen/ref2.jpg",
+  "/assets/images/struck/referenzen/ref3.jpg",
+  "/assets/images/struck/referenzen/ref4.jpg",
+  "/assets/images/struck/referenzen/ref5.jpg",
+  "/assets/images/struck/referenzen/ref6.jpg",
+  "/assets/images/struck/referenzen/ref7.jpg",
+];
 ---
 
 <Layout title="Dachdeckermeister | Lauter & Struck">
@@ -58,6 +72,37 @@ import Footer from "../components/Footer.astro";
         <div class="swiper-slide">
           <div
             class="image-layer"
+            style="background-image: url(/assets/images/struck/klempnerei/klemp4_big.jpg);"
+          >
+          </div>
+          <!-- /.image-layer -->
+
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-7 col-lg-8">
+                <div class="main-slider__content">
+                  <p class="main-slider__sub-title">Klempnerei</p>
+                  <h2 class="main-slider__title">
+                    Lorem ipsum dolor sit amet consectetur
+                  </h2>
+                  <p class="main-slider__text">
+                    Lorem ipsum dolor sit amet consectetur <br />
+                    Lorem ipsum dolor sit amet consectetur
+                  </p>
+                  <div class="main-slider__btn-box">
+                    <a href="about.html" class="thm-btn main-slider__btn">
+                      <i class="fa fa-arrow-right"></i> mehr Informationen</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div
+            class="image-layer"
             style="
                   background-image: url(/assets/images/struck/dach/dach9.jpg);
                 "
@@ -69,7 +114,7 @@ import Footer from "../components/Footer.astro";
             <div class="row">
               <div class="col-xl-7 col-lg-8">
                 <div class="main-slider__content">
-                  <p class="main-slider__sub-title">Dämmung</p>
+                  <p class="main-slider__sub-title">Fassade</p>
                   <h2 class="main-slider__title">
                     Hinterlüftete-Fassadendämmung
                   </h2>
@@ -499,7 +544,7 @@ import Footer from "../components/Footer.astro";
                   <img src="/assets/images/struck/icons/roof1.svg" alt="" />
                 </div>
               </div>
-              <h2 class="section-title__title">
+              <h2 class="section-title__title" style="text-wrap: balance">
                 Ein starkes Team für Ihr Projekt.
               </h2>
             </div>
@@ -507,47 +552,60 @@ import Footer from "../components/Footer.astro";
               Exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat duis aute aboris nisi ut aliquip ex irure reprehederit.
             </p>
+            <div class="why-choose-one__author-sign">
+              <p>Niklas Lauter & Thomas Struck</p>
+            </div>
             <div class="why-choose-one__points-box">
               <div class="row">
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                  <div class="why-choose-one__points-single">
-                    <div class="why-choose-one__points-icon">
-                      <span class="icon-roof-2"></span>
-                    </div>
-                    <div class="why-choose-one__points-title-box">
-                      <h4 class="why-choose-one__points-title">Dachfenster</h4>
-                    </div>
-                  </div>
+                  <a href="/leistungen/dachfenster">
+                    <div class="why-choose-one__points-single">
+                      <div class="why-choose-one__points-icon">
+                        <span class="icon-roof-2"></span>
+                      </div>
+                      <div class="why-choose-one__points-title-box">
+                        <h4 class="why-choose-one__points-title">
+                          Dachfenster
+                        </h4>
+                      </div>
+                    </div></a
+                  >
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                  <div class="why-choose-one__points-single">
-                    <div class="why-choose-one__points-icon">
-                      <span class="icon-shield"></span>
-                    </div>
-                    <div class="why-choose-one__points-title-box">
-                      <h4 class="why-choose-one__points-title">PV-Anlagen</h4>
-                    </div>
-                  </div>
+                  <a href="/leistungen/pv">
+                    <div class="why-choose-one__points-single">
+                      <div class="why-choose-one__points-icon">
+                        <span class="icon-shield"></span>
+                      </div>
+                      <div class="why-choose-one__points-title-box">
+                        <h4 class="why-choose-one__points-title">PV-Anlagen</h4>
+                      </div>
+                    </div></a
+                  >
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                  <div class="why-choose-one__points-single">
-                    <div class="why-choose-one__points-icon">
-                      <span class="icon-mission"></span>
-                    </div>
-                    <div class="why-choose-one__points-title-box">
-                      <h4 class="why-choose-one__points-title">Abdichtung</h4>
-                    </div>
-                  </div>
+                  <a href="/leistungen/abdichtung">
+                    <div class="why-choose-one__points-single">
+                      <div class="why-choose-one__points-icon">
+                        <span class="icon-mission"></span>
+                      </div>
+                      <div class="why-choose-one__points-title-box">
+                        <h4 class="why-choose-one__points-title">Abdichtung</h4>
+                      </div>
+                    </div></a
+                  >
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-6">
-                  <div class="why-choose-one__points-single">
-                    <div class="why-choose-one__points-icon">
-                      <span class="icon-construction-worker"></span>
-                    </div>
-                    <div class="why-choose-one__points-title-box">
-                      <h4 class="why-choose-one__points-title">Klempnerei</h4>
-                    </div>
-                  </div>
+                  <a href="/leistungen/klempnerarbeiten">
+                    <div class="why-choose-one__points-single">
+                      <div class="why-choose-one__points-icon">
+                        <span class="icon-construction-worker"></span>
+                      </div>
+                      <div class="why-choose-one__points-title-box">
+                        <h4 class="why-choose-one__points-title">Klempnerei</h4>
+                      </div>
+                    </div></a
+                  >
                 </div>
               </div>
             </div>
@@ -565,9 +623,6 @@ import Footer from "../components/Footer.astro";
               </div>
               <div class="why-choose-one__shape-1"></div>
               <div class="why-choose-one__shape-2"></div>
-              <div class="why-choose-one__author-sign">
-                <p>Niklas Struck</p>
-              </div>
             </div>
           </div>
         </div>
@@ -640,281 +695,29 @@ import Footer from "../components/Footer.astro";
         <div
           class="project-one__carousel owl-carousel owl-theme thm-owl__carousel"
         >
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach1.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach1.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach10.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach10.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
+          {
+            refs.map((ref) => (
+              <div class="item">
+                <div class="project-one__single">
+                  <div class="project-one__img-box">
+                    <div class="project-one__img">
+                      <img src={ref} alt="" />
+                    </div>
+                    {/* <div class="project-one__content">
+                      <h4 class="project-one__title">
+                        <a href="work-details.html">Lorem ipsum</a>
+                      </h4>
+                    </div> */}
+                    <div class="project-one__link">
+                      <a class="img-popup" href={ref}>
+                        <i class="fa fa-search-plus" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach4.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach4.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach12.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach12.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach1.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach1.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach10.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach10.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach4.jpg" alt="" />
-                </div>
-                <!-- <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div> -->
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach4.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach12.jpg" alt="" />
-                </div>
-                <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div>
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach12.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach1.jpg" alt="" />
-                </div>
-                <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div>
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach1.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach10.jpg" alt="" />
-                </div>
-                <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div>
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach10.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach4.jpg" alt="" />
-                </div>
-                <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div>
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach4.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--Project One Single End-->
-          <!--Project One Single Start-->
-          <div class="item">
-            <div class="project-one__single">
-              <div class="project-one__img-box">
-                <div class="project-one__img">
-                  <img src="/assets/images/struck/dach/dach12.jpg" alt="" />
-                </div>
-                <div class="project-one__content">
-                  <h4 class="project-one__title">
-                    <a href="work-details.html">Lorem ipsum</a>
-                  </h4>
-                </div>
-                <div class="project-one__link">
-                  <a
-                    class="img-popup"
-                    href="/assets/images/struck/dach/dach12.jpg"
-                    ><i class="fa fa-search-plus"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+            ))
+          }
           <!--Project One Single End-->
         </div>
       </div>
@@ -982,142 +785,6 @@ import Footer from "../components/Footer.astro";
       </div>
     </div>
   </section>
-  <!--Trust Company End-->
-
-  <!--Testimonial One Start-->
-  <!-- <section class="testimonial-one">
-    <div
-      class="testimonial-one-shape"
-      style="
-            background-image: url(/assets/images/shapes/testimonial-one-shape.png);
-          "
-    >
-    </div>
-    <div class="container">
-      <div class="section-title text-center">
-        <div class="section-sub-title-box">
-          <p class="section-sub-title">Kunden</p>
-          <div class="section-title-shape-1">
-            <img src="/assets/images/struck/icons/roof1.svg" alt="" />
-          </div>
-        </div>
-        <h2 class="section-title__title">Was Sie über uns sagen</h2>
-      </div>
-      <div
-        class="testimonial-one__carousel owl-carousel owl-theme thm-owl__carousel"
-      >
-        <div class="item">
-          <div class="testimonial-one__single">
-            <div class="testimonial-one__client-info">
-              <div class="testimonial-one__client-img-box">
-                <div class="testimonial-one__client-img">
-                  <img src="/assets/images/struck/dummys/testi4.jpg" alt="" />
-                </div>
-              </div>
-              <div class="testimonial-one__client-details">
-                <h4 class="testimonial-one__client-name">Jessica Brown</h4>
-                <p class="testimonial-one__client-sub-title">Kunde</p>
-              </div>
-            </div>
-            <p class="testimonial-one__text">
-              Exercitation ullamco laboris nisi ut aliquip ex ea ex commodo
-              consequat duis aute aboris nisi ut aliquip irure reprehederit in
-              voluptate velit esse .
-            </p>
-            <div class="testimonial-one__rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="testimonial-one__single">
-            <div class="testimonial-one__client-info">
-              <div class="testimonial-one__client-img-box">
-                <div class="testimonial-one__client-img">
-                  <img src="/assets/images/struck/dummys/testi3.jpg" alt="" />
-                </div>
-              </div>
-              <div class="testimonial-one__client-details">
-                <h4 class="testimonial-one__client-name">David Cooper</h4>
-                <p class="testimonial-one__client-sub-title">Kunde</p>
-              </div>
-            </div>
-            <p class="testimonial-one__text">
-              Exercitation ullamco laboris nisi ut aliquip ex ea ex commodo
-              consequat duis aute aboris nisi ut aliquip irure reprehederit in
-              voluptate velit esse .
-            </p>
-            <div class="testimonial-one__rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="testimonial-one__single">
-            <div class="testimonial-one__client-info">
-              <div class="testimonial-one__client-img-box">
-                <div class="testimonial-one__client-img">
-                  <img src="/assets/images/struck/dummys/testi1.jpg" alt="" />
-                </div>
-              </div>
-              <div class="testimonial-one__client-details">
-                <h4 class="testimonial-one__client-name">Kevin Martin</h4>
-                <p class="testimonial-one__client-sub-title">Kunde</p>
-              </div>
-            </div>
-            <p class="testimonial-one__text">
-              Exercitation ullamco laboris nisi ut aliquip ex ea ex commodo
-              consequat duis aute aboris nisi ut aliquip irure reprehederit in
-              voluptate velit esse .
-            </p>
-            <div class="testimonial-one__rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="testimonial-one__single">
-            <div class="testimonial-one__client-info">
-              <div class="testimonial-one__client-img-box">
-                <div class="testimonial-one__client-img">
-                  <img src="/assets/images/struck/dummys/testi2.jpg" alt="" />
-                </div>
-              </div>
-              <div class="testimonial-one__client-details">
-                <h4 class="testimonial-one__client-name">Mike Hardson</h4>
-                <p class="testimonial-one__client-sub-title">Kunde</p>
-              </div>
-            </div>
-            <p class="testimonial-one__text">
-              Exercitation ullamco laboris nisi ut aliquip ex ea ex commodo
-              consequat duis aute aboris nisi ut aliquip irure reprehederit in
-              voluptate velit esse .
-            </p>
-            <div class="testimonial-one__rating">
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-              <i class="fa fa-star"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> -->
-  <!--Testimonial One End-->
 
   <!--Blog One Start-->
   <section class="blog-one pv-section">
