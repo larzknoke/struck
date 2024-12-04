@@ -52,6 +52,33 @@
         },
       },
     });
+    $(".ref-one__carousel").owlCarousel({
+      loop: true,
+      autoplay: true,
+      margin: 30,
+      nav: false,
+      dots: true,
+      smartSpeed: 500,
+      autoplayTimeout: 10000,
+      navText: [
+        '<span class="fa fa-angle-left"></span>',
+        '<span class="fa fa-angle-right"></span>',
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        992: {
+          items: 2,
+        },
+        1200: {
+          items: 2,
+        },
+      },
+    });
 
     $(".brand-one__carousel").owlCarousel({
       center: true,

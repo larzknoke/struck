@@ -1,6 +1,20 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import Footer from "../../components/Footer.astro";
+
+const refs = [
+  "/assets/images/struck/dach/dach1.jpg",
+  "/assets/images/struck/dach/dach10.jpg",
+  "/assets/images/struck/dach/dach4.jpg",
+  "/assets/images/struck/dach/dach12.jpg",
+  "/assets/images/struck/referenzen/ref1.jpg",
+  "/assets/images/struck/referenzen/ref2.jpg",
+  "/assets/images/struck/referenzen/ref3.jpg",
+  "/assets/images/struck/referenzen/ref4.jpg",
+  "/assets/images/struck/referenzen/ref5.jpg",
+  "/assets/images/struck/referenzen/ref6.jpg",
+  "/assets/images/struck/referenzen/ref7.jpg",
+];
 import SideNav from "../../components/sideNav.astro";
 ---
 
@@ -104,39 +118,44 @@ import SideNav from "../../components/sideNav.astro";
                   </li>
                 </ul>
               </div>
-              <div class="service-details__benefits">
-                <div class="row">
-                  <div class="col-xl-12">
-                    <div class="service-details__benefits-content">
-                      <h3 class="service-details__benefits-title">
+              <section class="project-one ref-section">
+                <div class="project-one__top">
+                  <div class="container">
+                    <div class="section-title text-center">
+                      <h3 class="section-title__title fs-2 text-start">
                         Referenzen
                       </h3>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-xl-6">
-                    <div class="service-details__benefits-single">
-                      <div class="service-details__benefits-img">
-                        <img
-                          src="/assets/images/struck/dach/dach13.jpg"
-                          alt=""
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-xl-6">
-                    <div class="service-details__benefits-single">
-                      <div class="service-details__benefits-img">
-                        <img
-                          src="/assets/images/struck/dach/dach15.jpg"
-                          alt=""
-                        />
-                      </div>
+                <div class="project-one__bottom">
+                  <div class="project-one__bottom-wrapper">
+                    <div
+                      class="ref-one__carousel owl-carousel owl-theme thm-owl__carousel"
+                    >
+                      {
+                        refs.map((ref) => (
+                          <div class="item">
+                            <div class="project-one__single">
+                              <div class="project-one__img-box">
+                                <div class="project-one__img">
+                                  <img src={ref} alt="" />
+                                </div>
+                                <div class="project-one__link">
+                                  <a class="img-popup" href={ref}>
+                                    <i class="fa fa-search-plus" />
+                                  </a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        ))
+                      }
+                      <!--Project One Single End-->
                     </div>
                   </div>
                 </div>
-              </div>
+              </section>
             </div>
           </div>
         </div>

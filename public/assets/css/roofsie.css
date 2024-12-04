@@ -11612,3 +11612,7 @@ a.link:hover {
   display: flex;
   align-items: center;
 }
+
+.ref-section {
+  padding-top: 20px;
+}
