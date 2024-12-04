@@ -11607,3 +11607,8 @@ a.link:hover {
     width: 50%;
   }
 }
+
+.brand-one__carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}

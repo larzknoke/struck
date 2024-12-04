@@ -54,7 +54,8 @@
     });
 
     $(".brand-one__carousel").owlCarousel({
-      margin: 60,
+      center: true,
+      margin: 80,
       smartSpeed: 700,
       loop: true,
       autoplay: 6000,
