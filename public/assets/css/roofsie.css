@@ -2572,6 +2572,12 @@ ul {
   text-align: left;
 }
 
+@media (min-width: 1200px) {
+  .main-slider__content {
+    min-height: 500px;
+  }
+}
+
 .main-slider__sub-title {
   font-size: 24px;
   color: var(--roofsie-base);
@@ -11599,7 +11605,7 @@ a.link:hover {
 }
 
 .weserpower-logo {
-  width: 70%;
+  width: 60%;
 }
 
 @media (min-width: 1200px) {
@@ -11615,4 +11621,9 @@ a.link:hover {
 
 .ref-section {
   padding-top: 20px;
+}
+
+.brand-img {
+  max-width: 75%;
+  margin: auto;
 }
