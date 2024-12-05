@@ -97,6 +97,7 @@ import Footer from "../components/Footer.astro";
         <div class="col-xl-12">
           <div class="contact-page__form">
             <form
+              method="POST"
               action="https://submit-form.com/OgDJNxeuL"
               class="comment-one__form contact-form-validatedOFF"
             >
@@ -105,6 +106,7 @@ import Footer from "../components/Footer.astro";
                 name="_redirect"
                 value="https://struck.larsknoke.com/danke/"
               />
+
               <div class="row">
                 <div class="col-xl-4">
                   <div class="comment-form__input-box">
@@ -128,7 +130,14 @@ import Footer from "../components/Footer.astro";
                     <textarea name="nachricht" placeholder="Nachricht"
                     ></textarea>
                   </div>
-                  <div class="comment-form__btn-box">
+                  <div
+                    class="comment-form__btn-box d-flex justify-content-center flex-column align-items-center"
+                  >
+                    <div
+                      class="g-recaptcha my-3"
+                      data-sitekey="6LfkmJMqAAAAABlqZqGfyUL1-67kGxPYf468Sr8f"
+                    >
+                    </div>
                     <button type="submit" class="thm-btn comment-form__btn">
                       <i class="fa fa-arrow-right"></i> Nachricht senden</button
                     >
@@ -141,18 +150,19 @@ import Footer from "../components/Footer.astro";
       </div>
     </div>
   </section>
-  <!--Contact Page End-->
+</Layout>
+<!--Contact Page End-->
 
-  <!--Google Map Start-->
-  <!-- <section class="google-map google-map-two">
+<!--Google Map Start-->
+<!-- <section class="google-map google-map-two">
     <iframe
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2465.5871413885875!2d9.427743515389247!3d51.83197199474111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47baef47a987e36f%3A0x2425969d59b0469a!2sCorveyer%20Str.%2017b%2C%2037671%20H%C3%B6xter!5e0!3m2!1sde!2sde!4v1670184805878!5m2!1sde!2sde"
       class="google-map__one"
       allowfullscreen></iframe>
   </section> -->
-  <!--Google Map End-->
+<!--Google Map End-->
 
-  <!--Site Footer End-->
-  <!--CTA One End-->
-  <Footer />
-</Layout>
+<!--Site Footer End-->
+<!--CTA One End-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<Footer />
