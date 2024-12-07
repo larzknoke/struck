@@ -11627,3 +11627,7 @@ a.link:hover {
   max-width: 75%;
   margin: auto;
 }
+
+.ref-section .section-title {
+  margin-bottom: 20px;
+}
