@@ -8870,6 +8870,12 @@ ul {
   z-index: 1;
 }
 
+@media only screen and (max-width: 768px) {
+  .page-header {
+    padding: 50px 0 50px 20px;
+  }
+}
+
 .page-header-bg {
   position: absolute;
   top: 0;
@@ -10233,6 +10239,12 @@ ul {
   position: relative;
   display: block;
   padding: 120px 0 90px;
+}
+
+@media only screen and (max-width: 768px) {
+  .service-details {
+    padding: 20px 0 90px;
+  }
 }
 
 .service-details__left {
