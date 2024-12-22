@@ -1465,14 +1465,14 @@ ul {
 }
 
 .mobile-nav__social a {
-  font-size: 16px;
+  font-size: 40px;
   color: var(--roofsie-white);
   -webkit-transition: 400ms;
   transition: 400ms;
 }
 
 .mobile-nav__social a + a {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .mobile-nav__social a:hover {
@@ -1481,8 +1481,8 @@ ul {
 
 .mobile-nav__contact {
   margin-bottom: 0;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .mobile-nav__contact li {

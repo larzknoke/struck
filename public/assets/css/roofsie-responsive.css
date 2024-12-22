@@ -903,8 +903,26 @@
   }
 
   .contact-details__list li {
-    flex: 0 0 100%;
+    flex: 0 0 50%;
     max-width: 100%;
+  }
+
+  .contact-details__icon {
+    height: 80px;
+    width: 80px;
+  }
+
+  .contact-details__content h4 {
+    line-height: 26px;
+    font-size: 16px;
+  }
+
+  .contact-details {
+    padding: 90px 0 90px;
+  }
+
+  .contact-details__list li:before {
+    width: 0;
   }
 
   .faq-page__left {
