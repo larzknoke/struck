@@ -25,22 +25,7 @@ const refs = [
   <section class="main-slider clearfix">
     <div
       class="swiper-container thm-swiper__slider"
-      data-swiper-options='{
-                "slidesPerView": 1, 
-                "loop": true,
-                "effect": "fade",
-                "pagination": {
-                  "el": "#main-slider-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "navigation": {
-                  "nextEl": "#main-slider__swiper-button-next",
-                  "prevEl": "#main-slider__swiper-button-prev"
-                },
-                "autoplay": {
-                  "delay": 4000
-                }}'
+      data-swiper-options='{"slidesPerView": 1, "loop": true,"effect": "fade","pagination": {  "el": "#main-slider-pagination",  "type": "bullets",  "clickable": true},"navigation": {  "nextEl": "#main-slider__swiper-button-next",  "prevEl": "#main-slider__swiper-button-prev"},"autoplay": {"delay": 4000}}'
     >
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -472,215 +457,211 @@ const refs = [
 
   <!--Why Choose One Start-->
   <section class="why-choose-one">
-    <div
+    <!-- <div
       class="why-choose-one-bg"
       style="
             background-image: url(/assets/images/backgrounds/why-choose-one-bgOFF.jpg);
           "
-    >
-    </div>
-    <div class="why-choose-one-shape-3 float-bob-y-2"></div>
-    <div class="why-choose-one-shape-4 float-bob-x">
+    > -->
+  </section>
+  <div class="why-choose-one-shape-3 float-bob-y-2"></div>
+  <!-- <div class="why-choose-one-shape-4 float-bob-x">
       <img src="/assets/images/shapes/why-choose-one-shape-4O.png" alt="" />
+    </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6">
+        <div class="why-choose-one__left">
+          <div class="section-title text-left">
+            <div class="section-sub-title-box">
+              <p class="section-sub-title">Warum wir?</p>
+              <div class="section-title-shape-1">
+                <img src="/assets/images/struck/icons/roof1.svg" alt="" />
+              </div>
+            </div>
+            <h2 class="section-title__title" style="text-wrap: balance">
+              Ein starkes Team für Ihr gut „durchdachtes“ Projekt.
+            </h2>
+          </div>
+          <p class="why-choose-one__text pb-3">Dach & Wand aus Meisterhand!</p>
+          <div class="why-choose-one__author-sign">
+            <p class="lh-lg ps-3 ps-lg-0" style="text-wrap: balance;">
+              Niklas Lauter & Thomas Struck
+            </p>
+          </div>
+          <div class="why-choose-one__points-box">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <a href="/leistungen/dachfenster">
+                  <div class="why-choose-one__points-single">
+                    <div class="why-choose-one__points-icon">
+                      <span class="icon-roof-2"></span>
+                    </div>
+                    <div class="why-choose-one__points-title-box">
+                      <h4 class="why-choose-one__points-title">Dachfenster</h4>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <a href="/leistungen/pv">
+                  <div class="why-choose-one__points-single">
+                    <div class="why-choose-one__points-icon">
+                      <span class="icon-shield"></span>
+                    </div>
+                    <div class="why-choose-one__points-title-box">
+                      <h4 class="why-choose-one__points-title">PV-Anlagen</h4>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <a href="/leistungen/abdichtung">
+                  <div class="why-choose-one__points-single">
+                    <div class="why-choose-one__points-icon">
+                      <span class="icon-mission"></span>
+                    </div>
+                    <div class="why-choose-one__points-title-box">
+                      <h4 class="why-choose-one__points-title">Abdichtung</h4>
+                    </div>
+                  </div></a
+                >
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6">
+                <a href="/leistungen/klempnerarbeiten">
+                  <div class="why-choose-one__points-single">
+                    <div class="why-choose-one__points-icon">
+                      <span class="icon-construction-worker"></span>
+                    </div>
+                    <div class="why-choose-one__points-title-box">
+                      <h4 class="why-choose-one__points-title">Klempnerei</h4>
+                    </div>
+                  </div></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6">
+        <div class="why-choose-one__right">
+          <div class="why-choose-one__img-box">
+            <div
+              class="why-choose-one__img wow slideInRight"
+              data-wow-delay="100ms"
+              data-wow-duration="2500ms"
+            >
+              <img src="/assets/images/struck/pv/pv5_hoch.jpg" alt="" />
+            </div>
+            <div class="why-choose-one__shape-1"></div>
+            <div class="why-choose-one__shape-2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>
+<!--Why Choose One End-->
+
+<!--Brand One Start-->
+<section class="brand-one">
+  <div class="brand-one__inner">
+    <div class="brand-one__shape-1 float-bob-y">
+      <img src="/assets/images/shapes/brand-one-shape-1.png" alt="" />
+    </div>
+    <div class="brand-one__shape-2 float-bob-y">
+      <img src="/assets/images/shapes/brand-one-shape-2.png" alt="" />
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xl-6">
-          <div class="why-choose-one__left">
-            <div class="section-title text-left">
-              <div class="section-sub-title-box">
-                <p class="section-sub-title">Warum wir?</p>
-                <div class="section-title-shape-1">
-                  <img src="/assets/images/struck/icons/roof1.svg" alt="" />
-                </div>
-              </div>
-              <h2 class="section-title__title" style="text-wrap: balance">
-                Ein starkes Team für Ihr gut „durchdachtes“ Projekt.
-              </h2>
-            </div>
-            <p class="why-choose-one__text pb-3">
-              Dach & Wand aus Meisterhand!
-            </p>
-            <div class="why-choose-one__author-sign">
-              <p class="lh-lg ps-3 ps-lg-0" style="text-wrap: balance;">
-                Niklas Lauter & Thomas Struck
-              </p>
-            </div>
-            <div class="why-choose-one__points-box">
-              <div class="row">
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                  <a href="/leistungen/dachfenster">
-                    <div class="why-choose-one__points-single">
-                      <div class="why-choose-one__points-icon">
-                        <span class="icon-roof-2"></span>
-                      </div>
-                      <div class="why-choose-one__points-title-box">
-                        <h4 class="why-choose-one__points-title">
-                          Dachfenster
-                        </h4>
-                      </div>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                  <a href="/leistungen/pv">
-                    <div class="why-choose-one__points-single">
-                      <div class="why-choose-one__points-icon">
-                        <span class="icon-shield"></span>
-                      </div>
-                      <div class="why-choose-one__points-title-box">
-                        <h4 class="why-choose-one__points-title">PV-Anlagen</h4>
-                      </div>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                  <a href="/leistungen/abdichtung">
-                    <div class="why-choose-one__points-single">
-                      <div class="why-choose-one__points-icon">
-                        <span class="icon-mission"></span>
-                      </div>
-                      <div class="why-choose-one__points-title-box">
-                        <h4 class="why-choose-one__points-title">Abdichtung</h4>
-                      </div>
-                    </div></a
-                  >
-                </div>
-                <div class="col-xl-6 col-lg-6 col-md-6">
-                  <a href="/leistungen/klempnerarbeiten">
-                    <div class="why-choose-one__points-single">
-                      <div class="why-choose-one__points-icon">
-                        <span class="icon-construction-worker"></span>
-                      </div>
-                      <div class="why-choose-one__points-title-box">
-                        <h4 class="why-choose-one__points-title">Klempnerei</h4>
-                      </div>
-                    </div></a
-                  >
-                </div>
+        <div class="col-xl-12">
+          <div
+            class="brand-one__carousel thm-owl__carousel owl-theme owl-carousel"
+          >
+            <!--Brand One Single-->
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/velux.svg"
+                  alt="Velux Logo"
+                />
               </div>
             </div>
-          </div>
-        </div>
-        <div class="col-xl-6">
-          <div class="why-choose-one__right">
-            <div class="why-choose-one__img-box">
-              <div
-                class="why-choose-one__img wow slideInRight"
-                data-wow-delay="100ms"
-                data-wow-duration="2500ms"
-              >
-                <img src="/assets/images/struck/pv/pv5_hoch.jpg" alt="" />
+            <!--Brand One Single-->
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/weserpower_grey.svg"
+                  alt="Weserpower Logo"
+                />
               </div>
-              <div class="why-choose-one__shape-1"></div>
-              <div class="why-choose-one__shape-2"></div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Why Choose One End-->
-
-  <!--Brand One Start-->
-  <section class="brand-one">
-    <div class="brand-one__inner">
-      <div class="brand-one__shape-1 float-bob-y">
-        <img src="/assets/images/shapes/brand-one-shape-1.png" alt="" />
-      </div>
-      <div class="brand-one__shape-2 float-bob-y">
-        <img src="/assets/images/shapes/brand-one-shape-2.png" alt="" />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-12">
-            <div
-              class="brand-one__carousel thm-owl__carousel owl-theme owl-carousel"
-            >
-              <!--Brand One Single-->
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/velux.svg"
-                    alt="Velux Logo"
-                  />
-                </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/braas.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <!--Brand One Single-->
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/weserpower_grey.svg"
-                    alt="Weserpower Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/prefa.svg"
+                  alt="Braas Logo"
+                  style="height: 100px"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/braas.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/bmi_partner.jpg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/prefa.svg"
-                    alt="Braas Logo"
-                    style="height: 100px"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/icopal.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/bmi_partner.jpg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/vedag.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/icopal.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/rheinzink.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/vedag.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/wolfin.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/rheinzink.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/gutex.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/wolfin.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
-              </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/gutex.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
-              </div>
-              <!-- <div class="brand-one__single">
+            </div>
+            <!-- <div class="brand-one__single">
                 <div class="brand-one__img">
                   <img
                     src="/assets/images/struck/brands/bmi.svg"
@@ -688,219 +669,217 @@ const refs = [
                   />
                 </div>
               </div> -->
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/rathscheck.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/rathscheck.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <div class="brand-one__single">
-                <div class="brand-one__img">
-                  <img
-                    src="/assets/images/struck/brands/wuerth.svg"
-                    alt="Braas Logo"
-                  />
-                </div>
+            </div>
+            <div class="brand-one__single">
+              <div class="brand-one__img">
+                <img
+                  src="/assets/images/struck/brands/wuerth.svg"
+                  alt="Braas Logo"
+                />
               </div>
-              <!--Brand One Single-->
             </div>
+            <!--Brand One Single-->
           </div>
         </div>
       </div>
     </div>
-  </section>
-  <!--Brand One End-->
+  </div>
+</section>
+<!--Brand One End-->
 
-  <!--Project One Start-->
-  <section class="project-one">
-    <div class="project-one__top">
-      <div class="container">
-        <div class="section-title text-center">
-          <div class="section-sub-title-box">
-            <p class="section-sub-title">Unsere Projekte</p>
-            <div class="section-title-shape-1">
-              <img src="/assets/images/struck/icons/roof1.svg" alt="" />
-            </div>
-          </div>
-          <h2 class="section-title__title" style="text-wrap: balance;">
-            Entdecken Sie einige unserer Projekte für Ihre Inspiration
-          </h2>
-        </div>
-      </div>
-    </div>
-    <div class="project-one__bottom">
-      <div class="project-one__bottom-wrapper">
-        <div
-          class="project-one__carousel owl-carousel owl-theme thm-owl__carousel"
-        >
-          {
-            refs.map((ref) => (
-              <div class="item">
-                <div class="project-one__single">
-                  <div class="project-one__img-box">
-                    <div class="project-one__img">
-                      <img src={ref} alt="" />
-                    </div>
-                    {/* <div class="project-one__content">
-                      <h4 class="project-one__title">
-                        <a href="work-details.html">Lorem ipsum</a>
-                      </h4>
-                    </div> */}
-                    <div class="project-one__link">
-                      <a class="img-popup" href={ref}>
-                        <i class="fa fa-search-plus" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))
-          }
-          <!--Project One Single End-->
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Project One  End-->
-
-  <!--Trust Company Start-->
-  <section class="trust-company">
-    <div class="trust-company-shape-1">
-      <img src="/assets/images/shapes/traust-company-shape-1.png" alt="" />
-    </div>
-    <div class="trust-company-shape-2"></div>
-    <div class="trust-company-shape-3"></div>
-    <div class="trust-company-shape-4"></div>
-    <div
-      class="trust-company-bg jarallax"
-      data-jarallax
-      data-speed="0.2"
-      data-imgPosition="50% 0%"
-      style="
-            background-image: url(/assets/images/struck/details/dach1.jpg);
-          "
-    >
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-6 col-lg-5">
-          <div class="trust-company__left">
-            <h2 class="trust-company__title">
-              Wir lassen Sie nicht im Regen stehen!
-            </h2>
-          </div>
-        </div>
-        <div class="col-xl-6 col-lg-7">
-          <div class="trust-company__right">
-            <div class="d-flex flex-column flex-md-row gap-4">
-              <ul class="list-unstyled trust-compay__points">
-                <li>
-                  <div class="icon">
-                    <span class="icon-tick"></span>
-                  </div>
-                  <div class="text">
-                    <p>Dacheindeckung</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span class="icon-tick"></span>
-                  </div>
-                  <div class="text">
-                    <p>Abdichtung</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span class="icon-tick"></span>
-                  </div>
-                  <div class="text">
-                    <p>Klempnerei</p>
-                  </div>
-                </li>
-              </ul>
-              <ul class="list-unstyled trust-compay__points">
-                <li>
-                  <div class="icon">
-                    <span class="icon-tick"></span>
-                  </div>
-                  <div class="text">
-                    <p>Fassade</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span class="icon-tick"></span>
-                  </div>
-                  <div class="text">
-                    <p>PV-Anlagen</p>
-                  </div>
-                </li>
-                <li>
-                  <div class="icon">
-                    <span class="icon-tick"></span>
-                  </div>
-                  <div class="text">
-                    <p>Dachfenster</p>
-                  </div>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--Blog One Start-->
-  <section class="blog-one pv-section">
+<!--Project One Start-->
+<section class="project-one">
+  <div class="project-one__top">
     <div class="container">
       <div class="section-title text-center">
         <div class="section-sub-title-box">
-          <p class="section-sub-title">Maßgeschneiderte Energielösungen</p>
+          <p class="section-sub-title">Unsere Projekte</p>
           <div class="section-title-shape-1">
             <img src="/assets/images/struck/icons/roof1.svg" alt="" />
           </div>
         </div>
-        <h2 class="section-title__title">PV-Anlagen</h2>
+        <h2 class="section-title__title" style="text-wrap: balance;">
+          Entdecken Sie einige unserer Projekte für Ihre Inspiration
+        </h2>
       </div>
-      <div class="row">
-        <!--Blog One Single Start-->
-        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
-          <img src="/assets/images/struck/pv/pv6.jpg" alt="" class="w-100" />
+    </div>
+  </div>
+  <div class="project-one__bottom">
+    <div class="project-one__bottom-wrapper">
+      <div
+        class="project-one__carousel owl-carousel owl-theme thm-owl__carousel"
+      >
+        {
+          refs.map((ref) => (
+            <div class="item">
+              <div class="project-one__single">
+                <div class="project-one__img-box">
+                  <div class="project-one__img">
+                    <img src={ref} alt="" />
+                  </div>
+                  {/* <div class="project-one__content">
+                      <h4 class="project-one__title">
+                        <a href="work-details.html">Lorem ipsum</a>
+                      </h4>
+                    </div> */}
+                  <div class="project-one__link">
+                    <a class="img-popup" href={ref}>
+                      <i class="fa fa-search-plus" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))
+        }
+        <!--Project One Single End-->
+      </div>
+    </div>
+  </div>
+</section>
+<!--Project One  End-->
+
+<!--Trust Company Start-->
+<section class="trust-company">
+  <div class="trust-company-shape-1">
+    <img src="/assets/images/shapes/traust-company-shape-1.png" alt="" />
+  </div>
+  <div class="trust-company-shape-2"></div>
+  <div class="trust-company-shape-3"></div>
+  <div class="trust-company-shape-4"></div>
+  <div
+    class="trust-company-bg jarallax"
+    data-jarallax
+    data-speed="0.2"
+    data-imgPosition="50% 0%"
+    style="
+            background-image: url(/assets/images/struck/details/dach1.jpg);
+          "
+  >
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-5">
+        <div class="trust-company__left">
+          <h2 class="trust-company__title">
+            Wir lassen Sie nicht im Regen stehen!
+          </h2>
         </div>
-        <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
-          <img
-            class="py-4 py-lg-4 weserpower-logo"
-            src="/assets/images/weserpower.svg"
-            alt="WeserPower Logo"
-          />
-          <p>
-            Steigen Sie mit Weser Power in die Welt der erneuerbaren Energien
-            ein. Als Zusammenschluss von Lücke Elektrotechnik und
-            Dachdeckermeister Lauter & Struck sind wir Ihr Experte für
-            Photovoltaik, Balkonkraftwerke, Heizstabsteuerungen, E-Mobility und
-            mehr.
-          </p>
-          <p>
-            Unsere Inhaber, Meister ihres Fachs, bringen gebündeltes Know-how
-            und innovative Konzepte für eine grüne Zukunft mit. Entdecken Sie,
-            wie wir Ihr Haus, Ihr Unternehmen oder Ihre Stadt energieeffizient
-            umgestalten können.
-          </p>
+      </div>
+      <div class="col-xl-6 col-lg-7">
+        <div class="trust-company__right">
+          <div class="d-flex flex-column flex-md-row gap-4">
+            <ul class="list-unstyled trust-compay__points">
+              <li>
+                <div class="icon">
+                  <span class="icon-tick"></span>
+                </div>
+                <div class="text">
+                  <p>Dacheindeckung</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <span class="icon-tick"></span>
+                </div>
+                <div class="text">
+                  <p>Abdichtung</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <span class="icon-tick"></span>
+                </div>
+                <div class="text">
+                  <p>Klempnerei</p>
+                </div>
+              </li>
+            </ul>
+            <ul class="list-unstyled trust-compay__points">
+              <li>
+                <div class="icon">
+                  <span class="icon-tick"></span>
+                </div>
+                <div class="text">
+                  <p>Fassade</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <span class="icon-tick"></span>
+                </div>
+                <div class="text">
+                  <p>PV-Anlagen</p>
+                </div>
+              </li>
+              <li>
+                <div class="icon">
+                  <span class="icon-tick"></span>
+                </div>
+                <div class="text">
+                  <p>Dachfenster</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    <!--Blog One Single End-->
-    <!--Blog One Single Start-->
-    <!--Blog One Single End-->
-    <!--Blog One Single Start-->
-    <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms"></div>
-    <!--Blog One Single End-->
-  </section>
-</Layout>
+  </div>
+</section>
+
+<!--Blog One Start-->
+<section class="blog-one pv-section">
+  <div class="container">
+    <div class="section-title text-center">
+      <div class="section-sub-title-box">
+        <p class="section-sub-title">Maßgeschneiderte Energielösungen</p>
+        <div class="section-title-shape-1">
+          <img src="/assets/images/struck/icons/roof1.svg" alt="" />
+        </div>
+      </div>
+      <h2 class="section-title__title">PV-Anlagen</h2>
+    </div>
+    <div class="row">
+      <!--Blog One Single Start-->
+      <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+        <img src="/assets/images/struck/pv/pv6.jpg" alt="" class="w-100" />
+      </div>
+      <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="100ms">
+        <img
+          class="py-4 py-lg-4 weserpower-logo"
+          src="/assets/images/weserpower.svg"
+          alt="WeserPower Logo"
+        />
+        <p>
+          Steigen Sie mit Weser Power in die Welt der erneuerbaren Energien ein.
+          Als Zusammenschluss von Lücke Elektrotechnik und Dachdeckermeister
+          Lauter & Struck sind wir Ihr Experte für Photovoltaik,
+          Balkonkraftwerke, Heizstabsteuerungen, E-Mobility und mehr.
+        </p>
+        <p>
+          Unsere Inhaber, Meister ihres Fachs, bringen gebündeltes Know-how und
+          innovative Konzepte für eine grüne Zukunft mit. Entdecken Sie, wie wir
+          Ihr Haus, Ihr Unternehmen oder Ihre Stadt energieeffizient umgestalten
+          können.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Blog One Single End-->
+  <!--Blog One Single Start-->
+  <!--Blog One Single End-->
+  <!--Blog One Single Start-->
+  <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms"></div>
+  <!--Blog One Single End-->
+</section>
 
 <!--Blog One End-->
 
