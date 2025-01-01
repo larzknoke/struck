@@ -11700,3 +11700,9 @@ a.link:hover {
 .ref-section .section-title {
   margin-bottom: 20px;
 }
+
+button:disabled,
+button[disabled] {
+  cursor: not-allowed;
+  background-color: var(--roofsie-gray) !important;
+}

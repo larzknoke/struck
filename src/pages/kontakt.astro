@@ -161,9 +161,15 @@ import Footer from "../components/Footer.astro";
                     <div
                       class="g-recaptcha my-3"
                       data-sitekey="6LfkmJMqAAAAABlqZqGfyUL1-67kGxPYf468Sr8f"
+                      data-callback="callback"
                     >
                     </div>
-                    <button type="submit" class="thm-btn comment-form__btn">
+                    <button
+                      type="submit"
+                      class="thm-btn comment-form__btn"
+                      id="submit-button"
+                      disabled
+                    >
                       <i class="fa fa-arrow-right"></i> Nachricht senden</button
                     >
                   </div>
@@ -190,4 +196,10 @@ import Footer from "../components/Footer.astro";
 <!--Site Footer End-->
 <!--CTA One End-->
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript">
+  function callback() {
+    const submitButton = document.getElementById("submit-button");
+    submitButton.removeAttribute("disabled");
+  }
+</script>
 <Footer />
