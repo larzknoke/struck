@@ -1279,7 +1279,7 @@ ul {
 }
 
 .mobile-nav__content .logo-box {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1465,7 +1465,7 @@ ul {
 }
 
 .mobile-nav__social a {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--roofsie-white);
   -webkit-transition: 400ms;
   transition: 400ms;
@@ -1481,8 +1481,8 @@ ul {
 
 .mobile-nav__contact {
   margin-bottom: 0;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mobile-nav__contact li {
@@ -11643,7 +11643,7 @@ a.link:hover {
 }
 
 .mobile-nav__content .logo-box img {
-  width: 200px;
+  width: 170px;
 }
 
 .impressum-page {
@@ -11705,4 +11705,10 @@ button:disabled,
 button[disabled] {
   cursor: not-allowed;
   background-color: var(--roofsie-gray) !important;
+}
+
+@media (max-width: 767px) {
+  .nav-logo {
+    display: none;
+  }
 }
